@@ -12,6 +12,7 @@ body { overflow-x: hidden; }
 /* Al saltar desde el índice, la pantalla no queda bajo el pill fijo */
 :target { scroll-margin-top: 8px; }
 
+/* ↓ generado por tools/port.mjs · no editar a mano ↓ */
 .mb1 {
   width: 100%;
   max-width: 520px;
@@ -515,22 +516,18 @@ body { overflow-x: hidden; }
   font-size: 15px;
 }
 .mb75 {
-  font-weight: 300;
-  color: rgba(0,0,0,.55);
-}
-.mb76 {
   background: rgba(16,6,159,.06);
   border-radius: 14px;
   padding: 16px 18px;
   border: 1.5px solid var(--klein);
 }
-.mb77 {
+.mb76 {
   background: var(--klein);
   color: #fff;
   border-radius: 14px;
   padding: 16px 18px;
 }
-.mb78 {
+.mb77 {
   font-weight: 700;
   font-size: 12px;
   letter-spacing: .14em;
@@ -538,79 +535,79 @@ body { overflow-x: hidden; }
   color: rgba(255,255,255,.8);
   margin-bottom: 10px;
 }
-.mb79 {
+.mb78 {
   display: grid;
   gap: 24px;
 }
-.mb80 {
+.mb79 {
   font-family: var(--font-serif);
   font-style: italic;
   font-size: 19px;
   color: var(--klein);
   margin-bottom: 14px;
 }
-.mb81 {
+.mb80 {
   display: grid;
   gap: 11px;
   font-size: 15px;
 }
-.mb82 {
+.mb81 {
   margin: 0 0 24px;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.45;
   color: var(--tinta-suave);
 }
-.mb83 {
+.mb82 {
   background: var(--klein);
   color: #fff;
   border-radius: 16px;
   padding: 22px;
 }
-.mb84 {
+.mb83 {
   font-weight: 700;
   font-size: 28px;
   letter-spacing: -.025em;
   text-transform: uppercase;
   margin-bottom: 12px;
 }
-.mb85 {
+.mb84 {
   font-weight: 300;
   font-size: 16px;
   line-height: 1.4;
   color: rgba(255,255,255,.9);
   margin-bottom: 14px;
 }
-.mb86 {
+.mb85 {
   border-top: 1px solid rgba(255,255,255,.3);
   padding-top: 12px;
   font-weight: 300;
   font-size: 15px;
   line-height: 1.4;
 }
-.mb87 {
+.mb86 {
   margin-top: 10px;
   font-weight: 300;
   font-size: 15px;
   line-height: 1.4;
 }
-.mb88 {
+.mb87 {
   padding: 15px 0;
   border-bottom: 1px solid rgba(0,0,0,.12);
 }
-.mb89 {
+.mb88 {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   gap: 14px;
   margin-bottom: 6px;
 }
-.mb90 {
+.mb89 {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: -.01em;
 }
-.mb91 {
+.mb90 {
   font-weight: 500;
   font-size: 13px;
   letter-spacing: .08em;
@@ -618,13 +615,13 @@ body { overflow-x: hidden; }
   color: rgba(0,0,0,.55);
   flex: 0 0 auto;
 }
-.mb92 {
+.mb91 {
   font-weight: 300;
   font-size: 15px;
   line-height: 1.4;
   color: var(--tinta-suave);
 }
-.mb93 {
+.mb92 {
   font-weight: 700;
   font-size: 13px;
   letter-spacing: .08em;
@@ -632,35 +629,35 @@ body { overflow-x: hidden; }
   color: var(--klein);
   flex: 0 0 auto;
 }
-.mb94 {
+.mb93 {
   padding: 15px 0;
   border-bottom: 1px solid rgba(0,0,0,.16);
 }
-.mb95 {
+.mb94 {
   display: grid;
   gap: 26px;
 }
-.mb96 {
+.mb95 {
   font-weight: 700;
   font-size: 22px;
   letter-spacing: -.02em;
   text-transform: uppercase;
 }
-.mb97 {
+.mb96 {
   font-family: var(--font-serif);
   font-style: italic;
   font-size: 16px;
   color: var(--klein);
   margin: 5px 0 12px;
 }
-.mb98 {
+.mb97 {
   font-weight: 300;
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 1.45;
   display: grid;
-  gap: 5px;
+  gap: 3px;
 }
-.mb99 {
+.mb98 {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -670,7 +667,7 @@ body { overflow-x: hidden; }
   text-transform: uppercase;
   margin-bottom: 22px;
 }
-.mb100 {
+.mb99 {
   margin: 0 0 28px;
   font-weight: 700;
   font-size: 34px;
@@ -678,78 +675,78 @@ body { overflow-x: hidden; }
   letter-spacing: -.035em;
   text-transform: uppercase;
 }
-.mb101 {
+.mb100 {
   border-top: 2px solid rgba(255,255,255,.45);
   padding-top: 14px;
 }
-.mb102 {
+.mb101 {
   font-family: var(--font-serif);
   font-style: italic;
   font-size: 18px;
   color: rgba(255,255,255,.75);
 }
-.mb103 {
+.mb102 {
   font-weight: 700;
   font-size: 20px;
   letter-spacing: -.02em;
   margin-top: 6px;
   line-height: 1.15;
 }
-.mb104 {
+.mb103 {
   font-weight: 300;
   font-size: 15px;
   line-height: 1.4;
   margin-top: 7px;
   color: rgba(255,255,255,.88);
 }
-.mb105 {
+.mb104 {
   border-top: 2px solid #fff;
   padding-top: 14px;
 }
-.mb106 {
+.mb105 {
   font-family: var(--font-serif);
   font-style: italic;
   font-size: 18px;
   color: #fff;
 }
-.mb107 {
+.mb106 {
   font-weight: 300;
   font-size: 15px;
   line-height: 1.4;
   margin-top: 7px;
   color: rgba(255,255,255,.95);
 }
-.mb108 {
+.mb107 {
   border: 1.5px solid var(--klein);
   border-radius: 16px;
   padding: 20px 22px;
 }
-.mb109 {
+.mb108 {
   font-weight: 700;
   font-size: 20px;
   letter-spacing: -.02em;
   text-transform: uppercase;
   margin-bottom: 8px;
 }
-.mb110 {
+.mb109 {
   font-weight: 300;
   font-size: 15px;
   line-height: 1.45;
   color: var(--tinta-suave);
 }
-.mb111 {
+.mb110 {
   background: var(--klein);
   color: #fff;
   border-radius: 16px;
   padding: 20px 22px;
 }
-.mb112 {
+.mb111 {
   font-weight: 300;
   font-size: 15px;
   line-height: 1.45;
   color: rgba(255,255,255,.92);
 }
-.mb113 {
+.mb112 {
   margin: 0 0 12px;
   font-weight: 700;
   font-size: 34px;
@@ -757,16 +754,16 @@ body { overflow-x: hidden; }
   letter-spacing: -.03em;
   text-transform: uppercase;
 }
-.mb114 {
+.mb113 {
   font-family: var(--font-serif);
   font-style: italic;
   color: var(--klein);
 }
-.mb115 {
+.mb114 {
   font-size: 15px;
   margin-bottom: 24px;
 }
-.mb116 {
+.mb115 {
   display: grid;
   grid-template-columns: 1.7fr 1fr;
   gap: 14px;
@@ -777,70 +774,70 @@ body { overflow-x: hidden; }
   letter-spacing: .12em;
   text-transform: uppercase;
 }
-.mb117 {
+.mb116 {
   display: grid;
   grid-template-columns: 1.7fr 1fr;
   gap: 14px;
   padding: 10px 0;
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
-.mb118 {
+.mb117 {
   font-weight: 500;
   color: var(--klein);
 }
-.mb119 {
+.mb118 {
   display: grid;
   grid-template-columns: 1.7fr 1fr;
   gap: 14px;
   padding: 10px 0;
   border-bottom: 1px solid rgba(0,0,0,.16);
 }
-.mb120 {
+.mb119 {
   font-weight: 700;
   font-size: 17px;
   letter-spacing: -.01em;
   text-transform: uppercase;
   margin-bottom: 8px;
 }
-.mb121 {
+.mb120 {
   font-family: var(--font-serif);
   font-style: italic;
   font-size: 20px;
   color: var(--klein);
   margin-bottom: 4px;
 }
-.mb122 {
+.mb121 {
   font-weight: 700;
   font-size: 88px;
   line-height: .92;
   letter-spacing: -.04em;
   color: var(--klein);
 }
-.mb123 {
+.mb122 {
   color: var(--tinta);
   font-size: 46px;
 }
-.mb124 {
+.mb123 {
   font-weight: 500;
   font-size: 17px;
   margin-top: 8px;
   color: var(--tinta-suave);
 }
-.mb125 {
+.mb124 {
   margin: 22px 0 30px;
   background: var(--klein);
   color: #fff;
   border-radius: 16px;
   padding: 20px 22px;
 }
-.mb126 {
+.mb125 {
   font-weight: 300;
   font-size: 15px;
   line-height: 1.45;
   margin-top: 6px;
   color: rgba(255,255,255,.9);
 }
-.mb127 {
+.mb126 {
   font-weight: 700;
   font-size: 11px;
   letter-spacing: .18em;
@@ -848,33 +845,37 @@ body { overflow-x: hidden; }
   color: var(--klein);
   margin-bottom: 10px;
 }
-.mb128 {
+.mb127 {
   font-size: 15px;
   margin-bottom: 26px;
 }
-.mb129 {
+.mb128 {
   display: grid;
   grid-template-columns: 1.35fr .9fr;
   gap: 12px;
   padding: 9px 0;
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
-.mb130 {
+.mb129 {
   color: rgba(0,0,0,.45);
 }
-.mb131 {
+.mb130 {
   display: grid;
   grid-template-columns: 1.35fr .9fr;
   gap: 12px;
   padding: 9px 0;
   border-bottom: 1px solid rgba(0,0,0,.16);
 }
-.mb132 {
+.mb131 {
   display: grid;
   grid-template-columns: 1.25fr 1.5fr;
   gap: 12px;
   padding: 9px 0;
   border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.mb132 {
+  font-weight: 300;
+  color: rgba(0,0,0,.55);
 }
 .mb133 {
   display: grid;
@@ -961,6 +962,7 @@ body { overflow-x: hidden; }
   display: block;
   flex: 0 0 auto;
 }
+/* ↑ fin del tramo generado ↑ */
 /* La portada está dibujada para una columna de ~430px: en teléfonos más
    angostos el display de 52px se sale, así que baja con el ancho. */
 @media (max-width: 430px) {

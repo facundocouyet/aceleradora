@@ -10,7 +10,12 @@
     return cs.display === 'grid' ? cs.gridTemplateColumns : '';
   };
 
-  document.querySelectorAll('.doc, .doc section').forEach(parent => {
+  // Las filas cuelgan de la sección o de un contenedor de tabla, según
+  // el bloque: se miran todos los padres posibles del documento.
+  const parents = [document.querySelector('.doc'), ...document.querySelectorAll('.doc *')]
+    .filter(el => el.childElementCount > 1);
+
+  parents.forEach(parent => {
     let group = [];
 
     const flush = () => {

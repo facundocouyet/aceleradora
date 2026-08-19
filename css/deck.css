@@ -159,6 +159,7 @@
   .rail, .notes, .hint { display: none !important; }
 }
 
+/* ↓ generado por tools/port.mjs · no editar a mano ↓ */
 .sl1 {
   width: 100%;
   height: 100%;
@@ -579,38 +580,38 @@
   text-transform: uppercase;
 }
 .sl62 {
-  font-size: 24px;
+  font-size: 19px;
 }
 .sl63 {
   display: grid;
-  grid-template-columns: 90px 1.5fr 1.5fr 1.9fr;
-  gap: 20px;
-  padding: 12px 0;
+  grid-template-columns: 62px 1fr 1fr 1fr 1.3fr;
+  gap: 18px;
+  padding: 11px 0;
   border-bottom: 2.5px solid var(--klein);
   font-weight: 700;
 }
 .sl64 {
   display: grid;
-  grid-template-columns: 90px 1.5fr 1.5fr 1.9fr;
-  gap: 20px;
-  padding: 9px 0;
+  grid-template-columns: 62px 1fr 1fr 1fr 1.3fr;
+  gap: 18px;
+  padding: 7px 0;
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
 .sl65 {
-  color: rgba(0,0,0,.3);
+  display: grid;
+  grid-template-columns: 62px 1fr 1fr 1fr 1.3fr;
+  gap: 18px;
+  padding: 7px 0;
+  border-bottom: 2px solid var(--klein);
 }
 .sl66 {
-  display: grid;
-  grid-template-columns: 90px 1.5fr 1.5fr 1.9fr;
-  gap: 20px;
-  padding: 9px 0;
-  border-bottom: 2px solid var(--klein);
+  color: rgba(0,0,0,.3);
 }
 .sl67 {
   display: grid;
-  grid-template-columns: 90px 1.5fr 1.5fr 1.9fr;
-  gap: 20px;
-  padding: 9px 0;
+  grid-template-columns: 62px 1fr 1fr 1fr 1.3fr;
+  gap: 18px;
+  padding: 7px 0;
   border-bottom: 1px solid rgba(0,0,0,.16);
 }
 .sl68 {
@@ -738,10 +739,10 @@
 }
 .sl87 {
   font-weight: 300;
-  font-size: 24px;
-  line-height: 1.4;
+  font-size: 20px;
+  line-height: 1.36;
   display: grid;
-  gap: 6px;
+  gap: 3px;
 }
 .sl88 {
   margin: 0 0 40px;
@@ -1061,5 +1062,4 @@
   padding: 12px 0;
   border-bottom: 1px solid rgba(255,255,255,.4);
 }
-
-
+/* ↑ fin del tramo generado ↑ */

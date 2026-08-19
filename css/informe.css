@@ -25,7 +25,10 @@
 
 /* Los espaciadores viven en un thead/tfoot: los navegadores los repiten
    en cada hoja impresa, así el cuerpo nunca pisa el pie de página. */
-.frame { width: 100%; border-collapse: collapse; }
+/* table-layout: fixed para que el ancho lo mande la hoja: si no, las
+   tablas anchas del documento estiran la tabla de paginado y el texto
+   se sale de la hoja en pantallas angostas. */
+.frame { width: 100%; table-layout: fixed; border-collapse: collapse; }
 .frame td { padding: 0; text-align: left; font-weight: inherit; }
 .hdr-space, .ftr-space { height: 0; }
 
@@ -66,6 +69,7 @@
   }
 }
 
+/* ↓ generado por tools/port.mjs · no editar a mano ↓ */
 .rp1 {
   display: flex;
   align-items: center;
@@ -121,14 +125,9 @@
   color: var(--klein);
   margin-bottom: 12px;
 }
-/* El índice se lee hacia abajo y después salta de columna, así el
-   orden del markup sigue siendo 1 a 16 y en mobile cae en una sola
-   columna sin barajarse. */
 .rp10 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(8, auto);
-  grid-auto-flow: column;
   gap: 4px 32px;
   font-size: 13.5px;
 }
@@ -137,7 +136,6 @@
 }
 .rp12 {
   grid-column: 1 / -1;
-  grid-row: 9;
   padding-top: 6px;
   color: var(--klein);
 }
@@ -342,21 +340,21 @@
 }
 .rp47 {
   break-inside: avoid;
-  font-size: 12.5px;
+  font-size: 11px;
   margin-bottom: 14px;
 }
 .rp48 {
   display: grid;
-  grid-template-columns: 52px 1.4fr 1.4fr 1.9fr;
-  gap: 10px;
+  grid-template-columns: 40px 1.25fr 1.25fr 1.25fr 1.5fr;
+  gap: 8px;
   padding: 8px 0;
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
 }
 .rp49 {
   display: grid;
-  grid-template-columns: 52px 1.4fr 1.4fr 1.9fr;
-  gap: 10px;
+  grid-template-columns: 40px 1.25fr 1.25fr 1.25fr 1.5fr;
+  gap: 8px;
   padding: 5px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
 }
@@ -364,71 +362,71 @@
   grid-column: 2 / -1;
 }
 .rp51 {
-  color: rgba(0,0,0,.35);
+  display: grid;
+  grid-template-columns: 40px 1.25fr 1.25fr 1.25fr 1.5fr;
+  gap: 8px;
+  padding: 5px 0;
+  border-bottom: 2px solid var(--klein);
 }
 .rp52 {
+  color: rgba(0,0,0,.35);
+}
+.rp53 {
   display: grid;
-  grid-template-columns: 52px 1.4fr 1.4fr 1.9fr;
-  gap: 10px;
+  grid-template-columns: 40px 1.25fr 1.25fr 1.25fr 1.5fr;
+  gap: 8px;
   padding: 5px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp53 {
+.rp54 {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   gap: 14px;
   padding: 8px 0;
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
-}
-.rp54 {
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
-  gap: 14px;
-  padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp55 {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   gap: 14px;
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.14);
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp56 {
-  margin: 0 0 4px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  gap: 14px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,.14);
 }
 .rp57 {
-  margin: 0 0 8px;
+  margin: 0 0 4px;
 }
 .rp58 {
+  margin: 0 0 8px;
+}
+.rp59 {
   margin: 0;
   font-size: 13.5px;
   color: rgba(0,0,0,.6);
 }
-.rp59 {
+.rp60 {
   font-weight: 700;
   font-size: 18px;
   margin: 0 0 8px;
   break-after: avoid;
 }
-.rp60 {
+.rp61 {
   margin: 0 0 18px;
 }
-.rp61 {
+.rp62 {
   display: grid;
   grid-template-columns: 50px 70px 90px 2.6fr;
   gap: 12px;
   padding: 8px 0;
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
-}
-.rp62 {
-  display: grid;
-  grid-template-columns: 50px 70px 90px 2.6fr;
-  gap: 12px;
-  padding: 5px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp63 {
   display: grid;
@@ -436,16 +434,23 @@
   gap: 12px;
   padding: 5px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
-  background: rgba(16,6,159,.05);
 }
 .rp64 {
   display: grid;
   grid-template-columns: 50px 70px 90px 2.6fr;
   gap: 12px;
   padding: 5px 0;
-  border-bottom: 1px solid rgba(0,0,0,.14);
+  border-bottom: 1px solid rgba(0,0,0,.08);
+  background: rgba(16,6,159,.05);
 }
 .rp65 {
+  display: grid;
+  grid-template-columns: 50px 70px 90px 2.6fr;
+  gap: 12px;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(0,0,0,.14);
+}
+.rp66 {
   display: grid;
   grid-template-columns: 1.1fr 2.1fr 2fr;
   gap: 12px;
@@ -453,21 +458,21 @@
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
 }
-.rp66 {
+.rp67 {
   display: grid;
   grid-template-columns: 1.1fr 2.1fr 2fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
 }
-.rp67 {
+.rp68 {
   display: grid;
   grid-template-columns: 1.1fr 2.1fr 2fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp68 {
+.rp69 {
   border-left: 3px solid var(--klein);
   background: var(--tiza);
   border-radius: 0 12px 12px 0;
@@ -475,54 +480,54 @@
   margin: 0 0 10px;
   break-inside: avoid;
 }
-.rp69 {
+.rp70 {
   break-inside: avoid;
   font-size: 12.5px;
   margin-bottom: 12px;
 }
-.rp70 {
+.rp71 {
   display: grid;
-  grid-template-columns: .8fr 1.3fr .7fr .8fr 1.5fr 1.7fr;
+  grid-template-columns: .85fr 1.35fr .6fr .65fr 1.4fr 1.6fr;
   gap: 9px;
   padding: 8px 0;
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
 }
-.rp71 {
+.rp72 {
   display: grid;
-  grid-template-columns: .8fr 1.3fr .7fr .8fr 1.5fr 1.7fr;
+  grid-template-columns: .85fr 1.35fr .6fr .65fr 1.4fr 1.6fr;
   gap: 9px;
   padding: 5px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
 }
-.rp72 {
+.rp73 {
   display: grid;
-  grid-template-columns: .8fr 1.3fr .7fr .8fr 1.5fr 1.7fr;
+  grid-template-columns: .85fr 1.35fr .6fr .65fr 1.4fr 1.6fr;
   gap: 9px;
   padding: 5px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
   background: rgba(16,6,159,.05);
 }
-.rp73 {
+.rp74 {
   display: grid;
-  grid-template-columns: .8fr 1.3fr .7fr .8fr 1.5fr 1.7fr;
+  grid-template-columns: .85fr 1.35fr .6fr .65fr 1.4fr 1.6fr;
   gap: 9px;
   padding: 5px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp74 {
+.rp75 {
   border: 1.5px solid var(--klein);
   border-radius: 16px;
   padding: 15px 19px;
   margin: 0 0 18px;
   break-inside: avoid;
 }
-.rp75 {
+.rp76 {
   break-inside: avoid;
   font-size: 13.5px;
   margin-bottom: 10px;
 }
-.rp76 {
+.rp77 {
   display: grid;
   grid-template-columns: 1.4fr 1.4fr 1.9fr;
   gap: 12px;
@@ -530,52 +535,52 @@
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
 }
-.rp77 {
+.rp78 {
   display: grid;
   grid-template-columns: 1.4fr 1.4fr 1.9fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
 }
-.rp78 {
+.rp79 {
   color: var(--klein);
   font-weight: 700;
 }
-.rp79 {
+.rp80 {
   display: grid;
   grid-template-columns: 1.4fr 1.4fr 1.9fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp80 {
+.rp81 {
   break-inside: avoid;
   font-size: 13px;
   margin-bottom: 14px;
 }
-.rp81 {
+.rp82 {
   display: grid;
   grid-template-columns: 1fr 1.6fr 1.6fr 1.6fr;
   gap: 12px;
   padding: 8px 0;
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
-}
-.rp82 {
-  display: grid;
-  grid-template-columns: 1fr 1.6fr 1.6fr 1.6fr;
-  gap: 12px;
-  padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp83 {
   display: grid;
   grid-template-columns: 1fr 1.6fr 1.6fr 1.6fr;
   gap: 12px;
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.14);
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp84 {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr 1.6fr 1.6fr;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,.14);
+}
+.rp85 {
   border: 1.5px dashed var(--klein);
   border-radius: 14px;
   padding: 14px 18px;
@@ -583,7 +588,7 @@
   break-inside: avoid;
   font-size: 13.5px;
 }
-.rp85 {
+.rp86 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 16px;
@@ -591,53 +596,53 @@
   break-inside: avoid;
   font-size: 13px;
 }
-.rp86 {
+.rp87 {
   border-top: 3px solid var(--klein);
   padding-top: 12px;
 }
-.rp87 {
+.rp88 {
   font-weight: 700;
   font-size: 15px;
   margin-bottom: 2px;
 }
-.rp88 {
+.rp89 {
   font-family: var(--font-serif);
   font-style: italic;
   color: var(--klein);
   margin-bottom: 8px;
 }
-.rp89 {
+.rp90 {
   display: grid;
   gap: 3px;
 }
-.rp90 {
+.rp91 {
   break-inside: avoid;
   font-size: 13px;
   margin-bottom: 12px;
 }
-.rp91 {
+.rp92 {
   display: grid;
   grid-template-columns: .9fr 1.7fr 1.7fr 1.7fr;
   gap: 12px;
   padding: 8px 0;
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
-}
-.rp92 {
-  display: grid;
-  grid-template-columns: .9fr 1.7fr 1.7fr 1.7fr;
-  gap: 12px;
-  padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp93 {
   display: grid;
   grid-template-columns: .9fr 1.7fr 1.7fr 1.7fr;
   gap: 12px;
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.14);
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp94 {
+  display: grid;
+  grid-template-columns: .9fr 1.7fr 1.7fr 1.7fr;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,.14);
+}
+.rp95 {
   display: grid;
   grid-template-columns: 1.5fr 1.4fr 1.4fr;
   gap: 12px;
@@ -645,21 +650,21 @@
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
 }
-.rp95 {
+.rp96 {
   display: grid;
   grid-template-columns: 1.5fr 1.4fr 1.4fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
 }
-.rp96 {
+.rp97 {
   display: grid;
   grid-template-columns: 1.5fr 1.4fr 1.4fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp97 {
+.rp98 {
   font-weight: 500;
   font-size: 12px;
   letter-spacing: .14em;
@@ -670,186 +675,186 @@
   padding: 2px 10px;
   vertical-align: middle;
 }
-.rp98 {
+.rp99 {
   break-inside: avoid;
   margin-bottom: 12px;
   font-size: 13.5px;
 }
-.rp99 {
+.rp100 {
   margin: 12px 0 6px;
   font-weight: 700;
 }
-.rp100 {
+.rp101 {
   margin: 0 0 6px;
   font-size: 13px;
   color: rgba(0,0,0,.6);
 }
-.rp101 {
+.rp102 {
   color: rgba(0,0,0,.55);
 }
-.rp102 {
+.rp103 {
   border: 1.5px dashed var(--klein);
   border-radius: 14px;
   padding: 14px 18px;
   break-inside: avoid;
   font-size: 13.5px;
 }
-.rp103 {
+.rp104 {
   display: grid;
   grid-template-columns: .9fr 1.2fr 2.2fr 1.6fr;
   gap: 12px;
   padding: 8px 0;
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
-}
-.rp104 {
-  display: grid;
-  grid-template-columns: .9fr 1.2fr 2.2fr 1.6fr;
-  gap: 12px;
-  padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp105 {
   display: grid;
   grid-template-columns: .9fr 1.2fr 2.2fr 1.6fr;
   gap: 12px;
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.14);
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp106 {
+  display: grid;
+  grid-template-columns: .9fr 1.2fr 2.2fr 1.6fr;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,.14);
+}
+.rp107 {
   display: grid;
   grid-template-columns: 2fr 1.2fr 1.4fr;
   gap: 12px;
   padding: 8px 0;
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
-}
-.rp107 {
-  display: grid;
-  grid-template-columns: 2fr 1.2fr 1.4fr;
-  gap: 12px;
-  padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp108 {
   display: grid;
   grid-template-columns: 2fr 1.2fr 1.4fr;
   gap: 12px;
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.14);
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp109 {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr 1.4fr;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,.14);
+}
+.rp110 {
   border: 1.5px solid var(--klein);
   border-radius: 16px;
   padding: 15px 19px;
   break-inside: avoid;
 }
-.rp110 {
+.rp111 {
   margin: 0 0 18px;
   font-size: 13.5px;
   color: rgba(0,0,0,.6);
 }
-.rp111 {
+.rp112 {
   display: grid;
   grid-template-columns: 1.3fr 2.6fr;
   gap: 12px;
   padding: 8px 0;
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
-}
-.rp112 {
-  display: grid;
-  grid-template-columns: 1.3fr 2.6fr;
-  gap: 12px;
-  padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp113 {
   display: grid;
   grid-template-columns: 1.3fr 2.6fr;
   gap: 12px;
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.14);
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp114 {
-  break-inside: avoid;
-  font-size: 12px;
-  margin-bottom: 14px;
+  display: grid;
+  grid-template-columns: 1.3fr 2.6fr;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,.14);
 }
 .rp115 {
+  break-inside: avoid;
+  font-size: 11.5px;
+  margin-bottom: 14px;
+}
+.rp116 {
   display: grid;
-  grid-template-columns: 1.5fr repeat(6,1fr);
+  grid-template-columns: 1.4fr repeat(6,1fr);
   gap: 8px;
   padding: 8px 0;
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
 }
-.rp116 {
+.rp117 {
   display: grid;
-  grid-template-columns: 1.5fr repeat(6,1fr);
+  grid-template-columns: 1.4fr repeat(6,1fr);
   gap: 8px;
   padding: 7px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
 }
-.rp117 {
+.rp118 {
   display: grid;
-  grid-template-columns: 1.5fr repeat(6,1fr);
+  grid-template-columns: 1.4fr repeat(6,1fr);
   gap: 8px;
   padding: 7px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
-}
-.rp118 {
-  display: grid;
-  grid-template-columns: 1.3fr 1fr 2.4fr;
-  gap: 12px;
-  padding: 8px 0;
-  border-bottom: 1.5px solid var(--klein);
-  font-weight: 700;
 }
 .rp119 {
   display: grid;
   grid-template-columns: 1.3fr 1fr 2.4fr;
   gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1.5px solid var(--klein);
+  font-weight: 700;
+}
+.rp120 {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 2.4fr;
+  gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
 }
-.rp120 {
+.rp121 {
   color: rgba(0,0,0,.5);
 }
-.rp121 {
+.rp122 {
   display: grid;
   grid-template-columns: 1.3fr 1fr 2.4fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp122 {
+.rp123 {
   margin: 0 0 14px;
   font-size: 13.5px;
 }
-.rp123 {
+.rp124 {
   display: grid;
   grid-template-columns: 1.4fr .9fr 2.4fr;
   gap: 12px;
   padding: 8px 0;
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
-}
-.rp124 {
-  display: grid;
-  grid-template-columns: 1.4fr .9fr 2.4fr;
-  gap: 12px;
-  padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp125 {
   display: grid;
   grid-template-columns: 1.4fr .9fr 2.4fr;
   gap: 12px;
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.14);
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp126 {
+  display: grid;
+  grid-template-columns: 1.4fr .9fr 2.4fr;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,.14);
+}
+.rp127 {
   display: grid;
   grid-template-columns: 1.4fr 3fr;
   gap: 12px;
@@ -857,42 +862,42 @@
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
 }
-.rp127 {
+.rp128 {
   display: grid;
   grid-template-columns: 1.4fr 3fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
 }
-.rp128 {
+.rp129 {
   display: grid;
   grid-template-columns: 1.4fr 3fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp129 {
+.rp130 {
   border: 1.5px solid var(--klein);
   border-radius: 16px;
   padding: 15px 19px;
   margin: 0 0 10px;
   break-inside: avoid;
 }
-.rp130 {
+.rp131 {
   break-inside: avoid;
   margin-bottom: 14px;
 }
-.rp131 {
+.rp132 {
   display: flex;
   align-items: baseline;
   gap: 12px;
   margin-bottom: 5px;
 }
-.rp132 {
+.rp133 {
   font-weight: 700;
   font-size: 16px;
 }
-.rp133 {
+.rp134 {
   border: 1.5px solid var(--klein);
   border-radius: 999px;
   padding: 2px 12px;
@@ -902,70 +907,70 @@
   text-transform: uppercase;
   color: var(--klein);
 }
-.rp134 {
+.rp135 {
   margin: 0;
   font-size: 13.5px;
 }
-.rp135 {
+.rp136 {
   break-inside: avoid;
 }
-.rp136 {
+.rp137 {
   font-weight: 700;
   font-size: 16px;
   margin-bottom: 5px;
 }
-.rp137 {
+.rp138 {
   font-family: inherit;
   color: var(--klein);
 }
-.rp138 {
+.rp139 {
   border: 1.5px solid var(--klein);
   border-radius: 16px;
   padding: 18px 22px;
   break-inside: avoid;
 }
-.rp139 {
+.rp140 {
   margin: 0 0 12px;
   font-weight: 700;
 }
-.rp140 {
+.rp141 {
   display: grid;
   gap: 7px;
   font-size: 13.5px;
 }
-.rp141 {
+.rp142 {
   display: grid;
   grid-template-columns: 26px 1fr;
   gap: 12px;
 }
-.rp142 {
+.rp143 {
   font-family: var(--font-serif);
   font-style: italic;
   color: var(--klein);
 }
-.rp143 {
+.rp144 {
   display: grid;
   grid-template-columns: 1.3fr 3fr 1.1fr;
   gap: 12px;
   padding: 8px 0;
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
-}
-.rp144 {
-  display: grid;
-  grid-template-columns: 1.3fr 3fr 1.1fr;
-  gap: 12px;
-  padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp145 {
   display: grid;
   grid-template-columns: 1.3fr 3fr 1.1fr;
   gap: 12px;
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.14);
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp146 {
+  display: grid;
+  grid-template-columns: 1.3fr 3fr 1.1fr;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,.14);
+}
+.rp147 {
   display: grid;
   grid-template-columns: 1.4fr 2.4fr;
   gap: 14px;
@@ -973,21 +978,21 @@
   border-bottom: 1.5px solid var(--klein);
   font-weight: 700;
 }
-.rp147 {
+.rp148 {
   display: grid;
   grid-template-columns: 1.4fr 2.4fr;
   gap: 14px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
 }
-.rp148 {
+.rp149 {
   display: grid;
   grid-template-columns: 1.4fr 2.4fr;
   gap: 14px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp149 {
+.rp150 {
   width: 36px;
   height: 36px;
   border: 1.5px solid var(--klein);
@@ -1001,48 +1006,48 @@
   color: var(--klein);
   flex: 0 0 auto;
 }
-.rp150 {
+.rp151 {
   margin: 0 0 20px;
   font-size: 13.5px;
   color: rgba(0,0,0,.6);
 }
-.rp151 {
+.rp152 {
   break-inside: avoid;
   margin-bottom: 22px;
 }
-.rp152 {
+.rp153 {
   font-weight: 700;
   font-size: 20px;
   margin: 0 0 4px;
   color: var(--klein);
   break-after: avoid;
 }
-.rp153 {
+.rp154 {
   margin: 0 0 4px;
   font-weight: 700;
   font-size: 13.5px;
 }
-.rp154 {
+.rp155 {
   display: grid;
   gap: 2px;
   font-size: 13.5px;
   margin-bottom: 10px;
 }
-.rp155 {
+.rp156 {
   border-left: 3px solid var(--klein);
   background: var(--tiza);
   border-radius: 0 12px 12px 0;
   padding: 10px 16px;
   font-size: 13.5px;
 }
-.rp156 {
+.rp157 {
   break-inside: avoid;
   margin-bottom: 18px;
 }
-.rp157 {
+.rp158 {
   margin: 0 0 20px;
 }
-
+/* ↑ fin del tramo generado ↑ */
 /* ============================================================
    Mobile — la hoja pasa a ocupar el ancho de la pantalla y las
    tablas se desplazan en horizontal dentro de su contenedor.
@@ -1061,12 +1066,12 @@
   .rp4 { font-size: 32px; }            /* h1 */
   .rp5 { font-size: 19px; }            /* subtítulo Redaction */
   .rp8 { padding: 16px 18px; }         /* card de índice */
-  .rp10 {                              /* los 16 títulos, en una columna */
-    grid-template-columns: 1fr;
-    grid-template-rows: none;
-    grid-auto-flow: row;
-  }
-  .rp12 { grid-row: auto; }
+  .rp10 { grid-template-columns: 1fr; }  /* los 16 títulos, en una columna */
+  /* El markup alterna izquierda y derecha (1 y 9, 2 y 10…): en una sola
+     columna los impares son 1 a 8 y los pares 9 a 16, así se lee seguido. */
+  .rp10 > :nth-child(odd) { order: 1; }
+  .rp10 > :nth-child(even) { order: 2; }
+  .rp10 > .rp12 { order: 3; }          /* el anexo, siempre último */
   .rp13 { margin-top: 26px; }          /* sección */
   .rp15 {                              /* badge del número */
     width: 30px;

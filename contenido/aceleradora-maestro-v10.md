@@ -36,7 +36,7 @@ El Founder System fue un programa de 60 a 90 días, con diagnóstico más sesion
 | Duración | 60 a 90 días | 90 días |
 | Ticket | USD 2.000 a 4.000 | **USD 3.500** · 4.000 en cuotas |
 | Sesiones 1-1 | Diagnóstico + semanales | **11** |
-| Grupales | Ninguna | Semanales, en vivo |
+| Grupales | Ninguna | Tres por semana, en vivo |
 | Equipo visible | Franco y el estratega del área | Cinco founders |
 | Selección | Entrevista o propuesta directa | Filtro de admisión |
 
@@ -69,7 +69,7 @@ El Founder System fue un programa de 60 a 90 días, con diagnóstico más sesion
 | Cupo | 16 lugares en esta camada |
 | Modelo | Evergreen. La cohorte es cerrada: arranca junta y no se entra a mitad de camino. El cupo se amplía en las camadas siguientes |
 | Sesiones 1-1 | **11 por alumno** |
-| Grupales | Semanales, en vivo |
+| Grupales | Tres por semana, en vivo |
 | Cuenta | Cáscara Founders · privada hasta el 6/9 · pública desde el 8/9 |
 | Plataforma | App de Cáscara, en desarrollo. Recorrido, checklist y entregables en un solo lugar |
 | Equipo | Acceso a publicar en Connect Wall para armar su equipo de trabajo |
@@ -89,28 +89,28 @@ El Founder System fue un programa de 60 a 90 días, con diagnóstico más sesion
 
 ### Recorrido completo
 
-Las trece semanas completas. Las grupales caen martes y jueves; las 1-1 se reservan por el link de Founders.
+Las trece semanas completas. Todas las semanas hay tres grupales — operaciones el martes, creatividad el miércoles y contenido el jueves — y las 1-1 se reservan por el link de Founders.
 
-| Sem | Grupal · martes | Grupal · jueves | 1-1 |
-|---|---|---|---|
-| **Previo** | Onboarding y formulario inicial · Teo · asincrónico, dentro de las 48 h | | |
-| 1 | Bienvenida y setup · Teo | — | Clarity · **Facu** |
-| 2 | Creatividad · Juana | Contenido · Fede | Producto, servicio y oferta · **Franco** |
-| 3 | Operaciones · Teo | — | Aterrizaje y selección de roadmap · **Facu** |
-| 4 | Taller de creatividad · Juana | Taller de contenido · Fede | Cierre del mes 1 y arranque del frente · **Franco** |
-| 5 | Operaciones · Teo | — | Oferta y precio · **Franco** |
-| 6 | Creatividad · Juana | Contenido · Fede | Aplicación en su caso · **Facu** |
-| 7 | Operaciones · Teo | — | Adquisición y ventas · **Franco** |
-| 8 | Creatividad · Juana | Contenido · Fede | Cierre del mes 2 y ajuste · **Facu** |
-| 9 | Operaciones · Teo | — | Apertura del mes 3 · **Franco** |
-| 10 | Creatividad · Juana | Contenido · Fede | — |
-| 11 | Operaciones · Teo | — | **Facu** |
-| 12 | Creatividad · Juana | Contenido · Fede | — |
-| 13 | Operaciones · Teo | — | Cierre y roadmap a 6 meses · **Franco** |
+| Sem | Mar · operaciones | Mié · creatividad | Jue · contenido | 1-1 |
+|---|---|---|---|---|
+| **Previo** | Onboarding y formulario inicial · Teo · asincrónico, dentro de las 48 h | | | |
+| 1 | Bienvenida y setup | A quién le hablás | Línea editorial y ángulos | Clarity · **Facu** |
+| 2 | Tu semana real | Identidad y criterio propio | Formatos y guionado | Producto, servicio y oferta · **Franco** |
+| 3 | Herramientas mínimas | Taller de piezas propias | Taller del calendario | Aterrizaje y elección de orientación · **Facu** |
+| 4 | Entregar sin depender de vos | Voz de marca y narrativa | Contenido que abre conversación | Cierre del mes 1 y arranque del frente · **Franco** |
+| 5 | La tarea que se suelta | Dirección de un lanzamiento | Ritmo de producción | Oferta y precio · **Franco** |
+| 6 | Seguimiento que no se cae | Perfil y portfolio | Métricas y ajuste | Aplicación en su caso · **Facu** |
+| 7 | Capacidad y cupo real | Plantillas que no se rompen | Del ángulo a la oferta | Adquisición y ventas · **Franco** |
+| 8 | Los números de la semana | Referencias y moodboard | Una idea, cinco piezas | Cierre del mes 2 y ajuste · **Facu** |
+| 9 | Precio, margen y horas | Cómo se ve tu oferta | Taller de guion en vivo | Apertura del mes 3 · **Franco** |
+| 10 | Contratar sin romper margen | Dirección de fotos y video | Series y formatos recurrentes | — |
+| 11 | Onboarding de tus clientes | Presentar trabajo a un cliente | Contenido para un lanzamiento | Ejecución sobre la orientación · **Facu** |
+| 12 | Tablero y revisión mensual | De la idea a la pieza | Comunidad y DMs | — |
+| 13 | Qué queda funcionando sin vos | Tu marca al día 90 | El calendario que sigue solo | Cierre y roadmap a 6 meses · **Franco** |
 
 Once 1-1 en total: cuatro en el mes 1, cuatro en el mes 2 y tres en el mes 3.
 
-**Las grupales de Teo, Juana y Fede no frenan nunca.** Corren las trece semanas con la misma alternancia: semanas impares Teo el martes, semanas pares Juana el martes y Fede el jueves. Son una rotación permanente, no un tramo del recorrido, y por eso un alumno que entra en cualquier momento se suma a la que esté corriendo. La rotación de temas está en la sección 6.
+**Las grupales de Teo, Juana y Fede no frenan nunca, y son las tres todas las semanas.** Operaciones el martes, creatividad el miércoles y contenido el jueves, las trece semanas sin excepción. Es una rotación permanente y no un tramo del recorrido: un alumno que entra en cualquier momento se suma a la semana que esté corriendo y completa los trece temas de cada frente más adelante. La rotación de temas está en la sección 6.
 
 **Lo que sí termina en el mes 1 son las grupales de Franco y Facu.** Desde la semana 5 su aporte es enteramente 1-1, una por semana alternando entre los dos, porque a partir del mes 2 el trabajo es sobre el caso propio y no rinde en grupo.
 
@@ -207,15 +207,22 @@ El mes 1 corre en dos carriles en paralelo: las cuatro 1-1 de la cadena y las gr
 | Cuándo | Instancia | Quién | Formato | Llega con | Se lleva |
 |---|---|---|---|---|---|
 | 48 h | Onboarding | Teo | Asincrónico | Pago confirmado | Formulario completo y accesos activos |
-| Semana 1 | Bienvenida y setup | Teo | Grupal | Nada | Agenda cargada y calendario completo |
-| Semana 1 | Clarity call | Facu | 1-1 | El formulario del onboarding | Diagnóstico, cuello de botella y prioridad de ataque |
-| Semana 2 · martes | Creatividad | Juana | Grupal | Su cuenta y sus últimas piezas | A quién le habla y con qué mundo |
-| Semana 2 · jueves | Contenido | Fede | Grupal | La definición de la sesión anterior | Calendario de contenido a 30 días |
-| Semana 2 | Producto y oferta | Franco | 1-1 | El accionable de la clarity | Oferta, servicio y coordinación del lanzamiento |
-| Semana 3 | Operaciones | Teo | Grupal | Su semana real, hora por hora | Mapa de tareas y primer recorte |
-| Semana 3 · martes | Aterrizaje y definición | Facu | 1-1 | La oferta trabajada con Franco | **Orientación elegida** y objetivo de 60 días |
-| Semana 4 | Talleres de aplicación | Juana y Fede | Grupal | La oferta y el calendario ejecutados | Piezas publicadas y calendario ajustado |
-| Semana 4 | Cierre del mes 1 | Franco | 1-1 | El roadmap elegido | Arranque del frente, con la primera semana cargada |
+| Sem 1 · mar | Bienvenida y setup | Teo | Grupal | Nada | Agenda cargada y calendario completo |
+| Sem 1 · mié | A quién le hablás | Juana | Grupal | Su cuenta y sus últimas piezas | Su público y su mundo definidos |
+| Sem 1 · jue | Línea editorial y ángulos | Fede | Grupal | Sus últimas publicaciones | Tres ángulos propios escritos |
+| Sem 1 | Clarity call | Facu | 1-1 | El formulario del onboarding | Diagnóstico, cuello de botella y prioridad de ataque |
+| Sem 2 · mar | Tu semana real | Teo | Grupal | Su semana hora por hora | Mapa de tareas y primer recorte |
+| Sem 2 · mié | Identidad y criterio propio | Juana | Grupal | Sus piezas y sus referencias | Criterio visual escrito |
+| Sem 2 · jue | Formatos y guionado | Fede | Grupal | Los tres ángulos | Calendario de contenido a 30 días |
+| Sem 2 | Producto y oferta | Franco | 1-1 | El accionable de la clarity | Oferta, servicio y coordinación del lanzamiento |
+| Sem 3 · mar | Herramientas mínimas | Teo | Grupal | Sus herramientas actuales | Setup mínimo funcionando |
+| Sem 3 · mié | Taller de piezas propias | Juana | Grupal | Las piezas de la semana | Piezas corregidas y publicables |
+| Sem 3 · jue | Taller del calendario | Fede | Grupal | El calendario ejecutado | Calendario ajustado |
+| Sem 3 | **Aterrizaje y definición** | Facu | 1-1 | La oferta trabajada con Franco | **Orientación elegida y objetivo de 60 días** |
+| Sem 4 · mar | Entregar sin depender de vos | Teo | Grupal | Su proceso actual de entrega | El primer paso documentado |
+| Sem 4 · mié | Voz de marca y narrativa | Juana | Grupal | Su copy actual | Voz definida y aplicada |
+| Sem 4 · jue | Contenido que abre conversación | Fede | Grupal | Las piezas publicadas | Piezas con llamada a conversación |
+| Sem 4 | Cierre del mes 1 | Franco | 1-1 | El roadmap elegido | Arranque del frente, con la primera semana cargada |
 
 **La condición para entrar al servicio.** Antes de pasar al mes 2 el alumno tiene que tener aceitada la creación de contenido: produciendo con criterio propio o, como mínimo, con lo que produce auditado y con la cabeza puesta en eso. Es la condición, no una recomendación. Si está creando contenido, el tráfico alimenta el embudo entero y todo el frente comercial del mes 2 rinde el triple. Si no, el bloque de adquisición empuja ventas sobre una audiencia que no se mueve.
 
@@ -235,7 +242,7 @@ Facu llega con dos insumos: el diagnóstico de la semana 1 y la oferta que el al
 
 **Desde la semana 5 Franco y Facu solo dan 1-1**, una por semana alternando entre los dos. En el mes 1 el alumno necesita el marco común; a partir del mes 2 el trabajo es sobre su caso y no rinde en grupo.
 
-**Las grupales de Teo, Juana y Fede siguen corriendo las trece semanas.** Son una rotación permanente: operaciones los martes de las semanas impares, creatividad los martes y contenido los jueves de las pares. El alumno de mes 2 y 3 sigue entrando a las mismas grupales que el de mes 1, con temas que rotan.
+**Las tres grupales siguen corriendo todas las semanas.** Operaciones el martes, creatividad el miércoles y contenido el jueves, las trece semanas: es una rotación permanente y no un tramo del recorrido. El alumno de mes 2 y 3 entra a las mismas grupales que el de mes 1, con los temas que le toquen a esa semana del ciclo.
 
 **El servicio es uno solo.** La línea que lo atraviesa entero es aprender a ser founder de un negocio digital. Todos los alumnos recorren los mismos bloques, porque el que consigue un cliente en la semana 6 necesita saber cómo entregarlo en la 7, y el que ordena su entrega en la 9 necesita seguir vendiendo. Partir el programa en tres recorridos separados obliga a elegir entre cosas que en la práctica pasan al mismo tiempo.
 
@@ -284,9 +291,9 @@ Que Franco abra y cierre el último mes es deliberado: la conversación de qué 
 
 #### La rotación de las grupales
 
-Teo, Juana y Fede no dan una clase por camada: dan una rotación que no se corta. Un alumno de 90 días ve a Teo siete veces y a Juana y a Fede seis veces cada uno, sin repetir tema. El que entra en la semana 6 de la rotación empieza por ahí y completa el ciclo más adelante, que es lo que hace posible la venta continua.
+Teo, Juana y Fede no dan una clase por camada: dan una rotación que no se corta, y los tres frentes caen todas las semanas. Un alumno de 90 días ve trece temas de operaciones, trece de creatividad y trece de contenido, sin repetir ninguno. El que entra en la semana 6 de la rotación empieza por ahí y completa el ciclo más adelante, que es lo que hace posible la venta continua.
 
-**Teo · operaciones · martes de las semanas impares**
+**Teo · operaciones · todos los martes · 13 temas**
 
 | # | Tema |
 |---|---|
@@ -297,8 +304,14 @@ Teo, Juana y Fede no dan una clase por camada: dan una rotación que no se corta
 | 5 | Delegación: la primera tarea que se suelta y cómo se instruye |
 | 6 | Seguimiento de clientes y comunicación que no se cae |
 | 7 | Capacidad y cupo: cuántos clientes entran de verdad |
+| 8 | Los números de la semana: qué se mira y cada cuánto |
+| 9 | Precio, margen y horas propias por cliente |
+| 10 | Contratar sin romper el margen |
+| 11 | Onboarding de tus propios clientes |
+| 12 | Tablero y revisión mensual del negocio |
+| 13 | Qué queda funcionando cuando vos no estás |
 
-**Juana · creatividad · martes de las semanas pares**
+**Juana · creatividad · todos los miércoles · 13 temas**
 
 | # | Tema |
 |---|---|
@@ -308,8 +321,15 @@ Teo, Juana y Fede no dan una clase por camada: dan una rotación que no se corta
 | 4 | Voz de marca y narrativa |
 | 5 | Dirección creativa de un lanzamiento |
 | 6 | Presencia: perfil, portfolio y primera impresión |
+| 7 | Sistema visual: plantillas que no se rompen |
+| 8 | Referencias: cómo se arma un moodboard que sirve |
+| 9 | Cómo se ve tu oferta: la propuesta como pieza |
+| 10 | Dirección de fotos y video propios |
+| 11 | Presentar trabajo a un cliente sin perder el criterio |
+| 12 | Caso completo: de la idea a la pieza publicada |
+| 13 | Tu marca al día 90: qué cambió y qué queda |
 
-**Fede · contenido · jueves de las semanas pares**
+**Fede · contenido · todos los jueves · 13 temas**
 
 | # | Tema |
 |---|---|
@@ -319,6 +339,13 @@ Teo, Juana y Fede no dan una clase por camada: dan una rotación que no se corta
 | 4 | Contenido que lleva a una conversación |
 | 5 | Ritmo y sistema de producción |
 | 6 | Métricas de contenido y cómo se ajusta |
+| 7 | Guiones de venta: del ángulo a la oferta |
+| 8 | Repurpose: una idea, cinco piezas |
+| 9 | Taller de guion en vivo |
+| 10 | Series y formatos recurrentes |
+| 11 | Contenido para lanzar algo puntual |
+| 12 | Comunidad y conversaciones en DM |
+| 13 | El calendario que sigue solo |
 
 > **A definir · Teo.** Si la rotación se graba para que el alumno que entra tarde pueda ver los temas que se perdió, o si se sostiene solo en vivo. Grabarla cambia el argumento de exclusividad del nivel, así que es una decisión de producto y no solo operativa.
 
@@ -359,7 +386,7 @@ Es la parte que hace que esto funcione con tres personas dando clases en paralel
 
 **Un solo registro.** Al terminar cada grupal, quien la dio carga en dos líneas qué se marcó y cuál fue el desafío. Cinco minutos. Sin eso, ninguna de las otras reglas se puede cumplir.
 
-**Se lee antes de dar.** Los tres leen el registro de las grupales anteriores antes de la suya. Teo el martes tiene que saber qué marcó Fede el jueves pasado, y Juana tiene que saber qué marcó Teo el martes anterior.
+**Se lee antes de dar.** Los tres leen el registro de las grupales anteriores antes de la suya. Teo el martes tiene que saber qué marcó Fede el jueves anterior, y Juana el miércoles tiene que saber qué marcó Teo el martes anterior.
 
 **Veinte minutos de coordinación por semana.** Los tres, más el coordinador cuando exista. Tres preguntas: qué marcó cada uno, quién se está quedando atrás, y si hay algo que un frente esté pidiendo y otro esté frenando. La interna de Aceleradora de los jueves ya existe en la agenda y puede absorber esto.
 
@@ -501,7 +528,7 @@ A futuro ese trabajo se separa en un rol propio: **coordinador de la Aceleradora
 |---|---|
 | Seguimiento entre llamadas | Revisa el checklist de cada alumno y detecta al que se está quedando antes de que lo diga |
 | Control de la cadena | Verifica que el accionable de cada sesión esté hecho antes de la siguiente |
-| Agenda | Coordina las 1-1 de Facu y Franco y sostiene la rotación de grupales |
+| Agenda | Sostiene las tres grupales semanales y coordina las 1-1 de Facu y Franco |
 | Escalado | Define qué se resuelve solo, qué va a Teo y qué llega a un founder |
 | Dueño del agente | Carga material nuevo, revisa qué preguntas no resuelve y las convierte en contenido |
 
@@ -517,27 +544,27 @@ Teo queda en dirección de operaciones: diseña el sistema, el coordinador lo co
 
 Todos los horarios en hora Argentina. Las 15:00 de acá son las 20:00 en Madrid, que es la franja que Juana ya sostiene.
 
-**La lógica.** Contenido y creatividad caen juntas una semana, operaciones la siguiente. Juana da el martes y Fede el jueves de la misma semana, así el alumno recibe los dos frentes en la misma semana y trabaja las dos semanas siguientes sobre eso. Teo entra el martes de la semana intermedia con operaciones, sobre lo que ya bajaron Juana y Fede. Facu y Franco quedan fuera de la grilla grupal del piso común: sus 1-1 entran por el link de Founders, que los alumnos reservan solos, en bloque los viernes.
+**La lógica.** Tres días fijos, todas las semanas: operaciones el martes con Teo, creatividad el miércoles con Juana y contenido el jueves con Fede. Martes y miércoles a las 15:00, jueves a las 16:30. El orden importa: operaciones ordena la semana, creatividad define qué se dice y con qué mundo, y contenido lo baja a piezas concretas antes del fin de semana. Facu y Franco quedan fuera de la grilla grupal: sus 1-1 entran por el link de Founders, en bloque los viernes.
 
 | Quién | Sem 17 ago | Sem 24 ago | Sem 31 ago | Sem 7 sep | Sem 14 sep | Sem 21 sep |
 |---|---|---|---|---|---|---|
 | **Teo** · operaciones | Jue 20 · 16:30 · Bienvenida | — | Mar 1 · 15:00 | — | Mar 15 · 15:00 | — |
-| **Juana** · creatividad | — | Mar 25 · 15:00 | — | Mar 8 · 15:00 | — | Mar 22 · 15:00 |
-| **Fede** · contenido | — | Jue 27 · 16:30 | — | Jue 10 · 16:30 | — | Jue 24 · 16:30 |
+| **Juana** · creatividad · mié | — | Mié 26 · 15:00 | Mié 2 · 15:00 | Mié 9 · 15:00 | Mié 16 · 15:00 | Mié 23 · 15:00 |
+| **Fede** · contenido · jue | — | Jue 27 · 16:30 | Jue 3 · 16:30 | Jue 10 · 16:30 | Jue 17 · 16:30 | Jue 24 · 16:30 |
 | **Facu** · 1-1 | Vie 21 | Vie 28 | Vie 4 | Vie 11 | Vie 18 | Vie 25 |
 | **Franco** · 1-1 | Vie 21 | Vie 28 | Vie 4 | Vie 11 | Vie 18 | Vie 25 |
 
-**Teo · operaciones.** Bienvenida a toda la camada y después el frente cada dos semanas, los martes salvo la primera: jue 20 ago 16:30 · mar 1 sep · mar 15 sep · mar 29 sep, todas a las 15:00.
+**Teo · operaciones.** Bienvenida a toda la camada y después todos los martes a las 15:00: jue 20 ago 16:30 (bienvenida) · mar 25 ago · mar 1 sep · mar 8 sep · mar 15 sep · mar 22 sep, y así.
 
-**Juana · creatividad.** Martes 15:00 (20:00 Madrid): 25 ago · 8 sep · 22 sep · 6 oct.
+**Juana · creatividad.** Todos los miércoles 15:00 (20:00 Madrid): 26 ago · 2 sep · 9 sep · 16 sep · 23 sep, y así.
 
-**Fede · contenido.** Jueves 16:30, dos días después de Juana: 27 ago · 10 sep · 24 sep · 8 oct. Va a las 16:30 y no a las 15:00 porque su jueves está cerrado hasta las 16:15, igual que el de Facu.
+**Fede · contenido.** Todos los jueves 16:30, al día siguiente de Juana: 27 ago · 3 sep · 10 sep · 17 sep · 24 sep, y así. Va a las 16:30 y no a las 15:00 porque su jueves está cerrado hasta las 16:15, igual que el de Facu.
 
 **Facu y Franco · 1-1.** Por el link de Founders, que los alumnos reservan solos. Facu define cada semana quién se agenda con quién, así el ciclo queda alternado: clarity, estrategia, clarity. Viernes 21 ago con dos reservas tomadas (Andrea Saturno 11:15, Dan Schwab 13:30); 28 ago, 4 y 11 sep con bloque abierto.
 
-**El ritmo es una y dos, y es a propósito.** Las semanas del 31 de agosto, del 14 y del 28 de septiembre tienen una sola instancia, la de Teo. Las de Juana y Fede tienen dos en dos días. El entregable de la semana de Teo es aplicar lo que bajaron los otros dos la semana anterior, así la carga del alumno queda pareja.
+**La semana tiene tres instancias y siempre las mismas.** Martes, miércoles y jueves, sin semanas vacías: el alumno sabe de memoria dónde cae cada frente. El entregable de cada grupal se aplica antes de la siguiente del mismo frente, que es siempre a siete días.
 
-**Los dos días fijos son martes y jueves.** El martes a las 15:00 y el jueves a las 16:30, porque los jueves están cerrados hasta las 16:15 tanto para Facu como para Fede. La bienvenida del jueves 20 usa esa misma franja, así que el patrón queda instalado desde la primera instancia.
+**Los tres días fijos son martes, miércoles y jueves.** Martes y miércoles a las 15:00, jueves a las 16:30, porque los jueves están cerrados hasta las 16:15 tanto para Facu como para Fede. La bienvenida del jueves 20 usa esa misma franja, así que el patrón queda instalado desde la primera instancia.
 
 **Falta el calendario de Teo.** El suyo no está compartido, así que sus horarios salen de las internas que comparte. Que lo confirme él antes de mandar las invitaciones.
 

@@ -33,6 +33,18 @@ vive en el hash de la URL (`presentacion.html#7`), así que un link puede abrir 
 Las dos piezas se imprimen: la presentación saca una hoja por slide, el informe pagina en A4 con
 el pie repetido en cada hoja. El pill "← Home" se oculta al imprimir.
 
+## Cómo se actualiza cuando llega un handoff nuevo
+
+```bash
+node tools/port.mjs ~/Downloads/design_handoff_aceleradora
+```
+
+Reescribe las cuatro páginas y el tramo generado de cada hoja de estilos —
+lo escrito a mano (el chrome de arriba, el mobile de abajo) queda intacto, entre
+los centinelas `↓ generado ↓` / `↑ fin del tramo generado ↑`. Como las clases se
+numeran por orden de aparición, si el contenido cambia mucho conviene revisar
+que las reglas mobile sigan apuntando al mismo elemento.
+
 ## Estructura
 
 ```
@@ -43,6 +55,7 @@ el pie repetido en cada hoja. El pill "← Home" se oculta al imprimir.
 │  ├─ deck.css          escenario, rail, notas, impresión + estilos de las slides
 │  ├─ deck-mobile.css   la columna de 520px + estilos de las 18 pantallas
 │  └─ informe.css       hoja A4, impresión + estilos del documento
+├─ tools/port.mjs      el porteo del handoff, ver arriba
 ├─ js/
 │  ├─ deck.js           escalado, navegación, rail, notas
 │  ├─ deck-mobile.js    barra de progreso

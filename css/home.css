@@ -4,6 +4,7 @@
    uno a uno desde el prototipo: cada regla es un bloque del
    markup y se corresponde con él en orden de aparición.
    ============================================================ */
+/* ↓ generado por tools/port.mjs · no editar a mano ↓ */
 .hm1 {
   min-height: 100vh;
   box-sizing: border-box;
@@ -172,6 +173,7 @@
   text-transform: uppercase;
   color: rgba(0,0,0,.45);
 }
+/* ↑ fin del tramo generado ↑ */
 /* ============================================================
    Mobile — una columna, el mismo sistema en escala de teléfono.
    La escala tipográfica baja de 76/44/19 a 42/28/16.
