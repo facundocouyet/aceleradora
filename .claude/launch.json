@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "aceleradora",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["/private/tmp/claude-501/-Users-facu-Documents-aceleradora/daf5072f-8fa9-43a3-a5d0-ddc0c67396bf/scratchpad/serve.mjs"],
+      "port": 4173
+    }
+  ]
+}

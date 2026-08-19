@@ -1,0 +1,174 @@
+/* ============================================================
+   Home — dos cards hacia la presentación y el informe.
+   Las clases .hmN son los estilos del diseño, deduplicados
+   uno a uno desde el prototipo: cada regla es un bloque del
+   markup y se corresponde con él en orden de aparición.
+   ============================================================ */
+.hm1 {
+  min-height: 100vh;
+  box-sizing: border-box;
+  background: var(--tiza);
+  color: var(--tinta);
+  font-family: var(--font-sans);
+  padding: 88px 72px 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+.hm2 {
+  max-width: 1180px;
+  margin: 0 auto;
+  width: 100%;
+}
+.hm3 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0 0 22px;
+}
+.hm4 {
+  width: 28px;
+  height: 2.5px;
+  background: var(--klein);
+}
+.hm5 {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--klein);
+}
+.hm6 {
+  margin: 0 0 16px;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.02;
+  letter-spacing: -.03em;
+  text-transform: uppercase;
+}
+.hm7 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 26px;
+  color: var(--klein);
+}
+.hm8 {
+  margin: 18px 0 0;
+  max-width: 70ch;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 1.55;
+  color: var(--tinta-suave);
+}
+.hm9 {
+  max-width: 1180px;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+.hm10 {
+  display: block;
+  text-decoration: none;
+  background: var(--klein);
+  color: #fff;
+  border-radius: 20px;
+  padding: 40px 40px 36px;
+  box-sizing: border-box;
+  transition: transform .28s cubic-bezier(.2,.8,.2,1);
+}
+.hm10:hover {
+  transform: translateY(-4px);
+}
+.hm11 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 88px;
+}
+.hm12 {
+  border: 1.5px solid rgba(255,255,255,.55);
+  border-radius: 999px;
+  padding: 6px 18px;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+.hm13 {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 34px;
+  line-height: 1;
+}
+.hm14 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.04;
+  letter-spacing: -.025em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.hm15 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+  color: rgba(255,255,255,.88);
+  max-width: 34ch;
+}
+.hm16 {
+  display: block;
+  text-decoration: none;
+  background: var(--papel);
+  color: var(--tinta);
+  border: 1.5px solid var(--klein);
+  border-radius: 20px;
+  padding: 40px 40px 36px;
+  box-sizing: border-box;
+  transition: transform .28s cubic-bezier(.2,.8,.2,1);
+}
+.hm16:hover {
+  transform: translateY(-4px);
+}
+.hm17 {
+  border: 1.5px solid var(--klein);
+  border-radius: 999px;
+  padding: 6px 18px;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--klein);
+}
+.hm18 {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 34px;
+  line-height: 1;
+  color: var(--klein);
+}
+.hm19 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--tinta-suave);
+  max-width: 34ch;
+}
+.hm20 {
+  max-width: 1180px;
+  margin: 0 auto;
+  width: 100%;
+  border-top: 1px solid rgba(0,0,0,.14);
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: rgba(0,0,0,.45);
+}
