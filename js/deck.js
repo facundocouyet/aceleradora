@@ -60,6 +60,8 @@
 
   const dismissHint = () => hint.toggleAttribute('data-hidden', true);
 
+  const toggle = panel => panel.toggleAttribute('data-open');
+
   document.addEventListener('keydown', e => {
     if (e.metaKey || e.ctrlKey || e.altKey) return;
     switch (e.key) {
@@ -67,8 +69,8 @@
       case 'ArrowLeft': case 'ArrowUp': case 'PageUp': go(index - 1); break;
       case 'Home': go(0); break;
       case 'End': go(slides.length - 1); break;
-      case 't': case 'T': rail.toggleAttribute('data-open'); break;
-      case 'n': case 'N': notes.toggleAttribute('data-open'); break;
+      case 't': case 'T': toggle(rail); break;
+      case 'n': case 'N': toggle(notes); break;
       case 'Escape':
         rail.removeAttribute('data-open');
         notes.removeAttribute('data-open');
@@ -81,10 +83,26 @@
 
   // Click sobre el escenario: mitad derecha avanza, mitad izquierda vuelve
   stage.addEventListener('click', e => {
-    if (e.target.closest('a, button')) return;
+    if (swiped || e.target.closest('a, button')) return;
     go(e.clientX > window.innerWidth / 2 ? index + 1 : index - 1);
     dismissHint();
   });
+
+  // Swipe horizontal en táctil. Un gesto no cuenta además como click.
+  let startX = 0, startY = 0, swiped = false;
+  stage.addEventListener('touchstart', e => {
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+    swiped = false;
+  }, { passive: true });
+
+  stage.addEventListener('touchend', e => {
+    const dx = e.changedTouches[0].clientX - startX;
+    const dy = e.changedTouches[0].clientY - startY;
+    if (Math.abs(dx) < 45 || Math.abs(dx) < Math.abs(dy)) return;
+    swiped = true;
+    go(dx < 0 ? index + 1 : index - 1);
+  }, { passive: true });
 
   window.addEventListener('resize', fit);
   window.addEventListener('hashchange', () => show((parseInt(location.hash.slice(1), 10) || 1) - 1));

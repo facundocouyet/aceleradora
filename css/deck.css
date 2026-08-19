@@ -70,7 +70,8 @@
 }
 .rail-item[data-active] .thumb { border-color: #fff; }
 
-.thumb > * {
+/* Dos clases para ganarle en especificidad al estilo propio de la slide */
+.rail .thumb > * {
   position: absolute;
   top: 0;
   left: 0;
@@ -1060,3 +1061,5 @@
   padding: 12px 0;
   border-bottom: 1px solid rgba(255,255,255,.4);
 }
+
+

@@ -7,6 +7,13 @@
 <meta name="description" content="La oferta unificada de la Aceleradora Cáscara en 16 slides.">
 <link rel="stylesheet" href="css/tokens.css">
 <link rel="stylesheet" href="css/deck.css">
+<script>
+  // En teléfono la presentación es otra pieza: 18 pantallas en scroll
+  // vertical. Se decide antes de pintar para no mostrar el deck y saltar.
+  if (window.matchMedia('(max-width: 700px)').matches) {
+    location.replace('presentacion-mobile.html');
+  }
+</script>
 </head>
 <body>
 <a class="home-pill home-pill--top-center" href="index.html">← Home</a>
@@ -510,6 +517,7 @@
 </aside>
 
 <div class="hint">← → navegar · T miniaturas · N notas</div>
+
 
 <script src="js/deck.js"></script>
 </body>

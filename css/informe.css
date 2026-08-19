@@ -121,9 +121,14 @@
   color: var(--klein);
   margin-bottom: 12px;
 }
+/* El índice se lee hacia abajo y después salta de columna, así el
+   orden del markup sigue siendo 1 a 16 y en mobile cae en una sola
+   columna sin barajarse. */
 .rp10 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(8, auto);
+  grid-auto-flow: column;
   gap: 4px 32px;
   font-size: 13.5px;
 }
@@ -132,6 +137,7 @@
 }
 .rp12 {
   grid-column: 1 / -1;
+  grid-row: 9;
   padding-top: 6px;
   color: var(--klein);
 }
@@ -1036,3 +1042,50 @@
 .rp157 {
   margin: 0 0 20px;
 }
+
+/* ============================================================
+   Mobile — la hoja pasa a ocupar el ancho de la pantalla y las
+   tablas se desplazan en horizontal dentro de su contenedor.
+   ============================================================ */
+@media (max-width: 760px) {
+  .desk { padding: 0; }
+  .sheet {
+    width: 100%;
+    padding: 62px 20px 26px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .doc { font-size: 15px; }
+
+  .rp3 { font-size: 10.5px; letter-spacing: .14em; }  /* kicker */
+  .rp4 { font-size: 32px; }            /* h1 */
+  .rp5 { font-size: 19px; }            /* subtítulo Redaction */
+  .rp8 { padding: 16px 18px; }         /* card de índice */
+  .rp10 {                              /* los 16 títulos, en una columna */
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-auto-flow: row;
+  }
+  .rp12 { grid-row: auto; }
+  .rp13 { margin-top: 26px; }          /* sección */
+  .rp15 {                              /* badge del número */
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+  .rp16 { font-size: 22px; }           /* h2 */
+
+  .tbl {
+    overflow-x: auto;
+    margin: 0 -20px 14px;
+    padding: 0 20px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .tbl > * { min-width: 500px; }
+  .doc-footer {
+    flex-direction: column;
+    gap: 4px;
+    font-size: 9.5px;
+  }
+}
+
