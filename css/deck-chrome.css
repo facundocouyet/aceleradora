@@ -1,0 +1,161 @@
+/* ============================================================
+   Chrome de deck: el escenario que escala un canvas de
+   1920 × 1080 al viewport, el rail de miniaturas, las notas del
+   orador y la impresión a una hoja por slide. Lo comparten la
+   presentación interna y la oferta al cliente; la tinta sale de
+   la hoja de tokens que linkee cada página.
+   ============================================================ */
+
+/* ---- Escenario. El letterbox toma el fondo de la slide activa ---- */
+.stage {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: var(--fondo);
+  transition: background .25s var(--ease);
+}
+
+/* El canvas se centra con translate y no con alineación de layout:
+   una caja de 1920px más ancha que la ventana no se centra sola. */
+.canvas {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 1920px;
+  height: 1080px;
+  transform: translate(-50%, -50%) scale(var(--deck-scale, 1));
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  display: none;
+}
+.slide[data-active] { display: block; }
+
+/* ---- Rail de miniaturas ---- */
+.rail {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 80;
+  width: 208px;
+  padding: 16px 13px;
+  overflow-y: auto;
+  background: rgba(10, 10, 12, .88);
+  transform: translateX(-100%);
+  transition: transform .28s var(--ease);
+}
+.rail[data-open] { transform: none; }
+
+.rail-item {
+  display: block;
+  width: 100%;
+  margin: 0 0 14px;
+  padding: 0;
+  border: 0;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.thumb {
+  position: relative;
+  width: 182px;
+  height: 102.375px;
+  overflow: hidden;
+  border: 1.5px solid rgba(255, 255, 255, .22);
+  border-radius: 4px;
+}
+.rail-item[data-active] .thumb { border-color: #fff; }
+
+/* Dos clases para ganarle en especificidad al estilo propio de la slide */
+.rail .thumb > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  transform: scale(.0947917);
+  transform-origin: top left;
+  pointer-events: none;
+}
+
+.rail-label {
+  display: block;
+  padding: 6px 2px 0;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, .5);
+}
+.rail-item[data-active] .rail-label { color: #fff; }
+
+/* ---- Notas del orador ---- */
+.notes {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 85;
+  padding: 20px 30px;
+  background: var(--chrome-ink);
+  color: var(--chrome-on-ink);
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.5;
+  transform: translateY(100%);
+  transition: transform .28s var(--ease);
+}
+.notes[data-open] { transform: none; }
+
+.notes-body { margin: 0; }
+
+.notes-label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 10.5px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, .6);
+}
+
+/* ---- Ayuda de teclado, se desvanece con la primera interacción ---- */
+.hint {
+  position: fixed;
+  left: 14px;
+  bottom: 14px;
+  z-index: 70;
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: rgba(10, 10, 12, .55);
+  color: rgba(255, 255, 255, .8);
+  font-weight: 500;
+  font-size: 10.5px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  transition: opacity .4s var(--ease);
+}
+.hint[data-hidden] { opacity: 0; }
+
+/* ---- Impresión: una hoja por slide, a tamaño completo ---- */
+@media print {
+  @page { size: 1920px 1080px; margin: 0; }
+  html, body { background: #fff; }
+  .stage { position: static; display: block; overflow: visible; background: none; }
+  .canvas { position: static; left: auto; top: auto; width: auto; height: auto; transform: none; }
+  .slide {
+    position: relative;
+    inset: auto;
+    display: block !important;
+    width: 1920px;
+    height: 1080px;
+    break-after: page;
+  }
+  .slide:last-child { break-after: auto; }
+  .rail, .notes, .hint { display: none !important; }
+}

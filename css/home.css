@@ -8,9 +8,9 @@
 .hm1 {
   min-height: 100vh;
   box-sizing: border-box;
-  background: var(--tiza);
+  background: var(--papel);
   color: var(--tinta);
-  font-family: var(--font-sans);
+  font-family: var(--font-base);
   padding: 88px 72px 72px;
   display: flex;
   flex-direction: column;
@@ -23,46 +23,34 @@
 }
 .hm3 {
   display: flex;
-  align-items: center;
-  gap: 14px;
-  margin: 0 0 22px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 0 30px;
 }
 .hm4 {
-  width: 28px;
-  height: 2.5px;
-  background: var(--klein);
+  border: 1px solid var(--tinta);
+  padding: 8px 15px;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
 }
 .hm5 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 12px;
-  letter-spacing: .2em;
+  letter-spacing: .22em;
   text-transform: uppercase;
-  color: var(--klein);
+  color: var(--gris-claro);
 }
 .hm6 {
-  margin: 0 0 16px;
+  margin: 0;
   font-weight: 700;
-  font-size: 76px;
+  font-size: 78px;
   line-height: 1.02;
-  letter-spacing: -.03em;
+  letter-spacing: -.035em;
   text-transform: uppercase;
 }
 .hm7 {
-  margin: 0;
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: 26px;
-  color: var(--klein);
-}
-.hm8 {
-  margin: 18px 0 0;
-  max-width: 70ch;
-  font-weight: 300;
-  font-size: 19px;
-  line-height: 1.55;
-  color: var(--tinta-suave);
-}
-.hm9 {
   max-width: 1180px;
   margin: 0 auto;
   width: 100%;
@@ -70,148 +58,222 @@
   grid-template-columns: 1fr 1fr;
   gap: 28px;
 }
-.hm10 {
+.hm8 {
   display: block;
   text-decoration: none;
-  background: var(--klein);
-  color: #fff;
-  border-radius: 20px;
+  background: var(--tinta);
+  color: var(--blanco);
   padding: 40px 40px 36px;
   box-sizing: border-box;
   transition: transform .28s cubic-bezier(.2,.8,.2,1);
 }
-.hm10:hover {
-  transform: translateY(-4px);
+.hm8:hover {
+  transform: translateY(-3px);
 }
-.hm11 {
+.hm9 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 88px;
+  margin-bottom: 118px;
 }
-.hm12 {
-  border: 1.5px solid rgba(255,255,255,.55);
-  border-radius: 999px;
-  padding: 6px 18px;
-  font-weight: 700;
-  font-size: 11px;
-  letter-spacing: .16em;
+.hm10 {
+  border: 1px solid rgba(250,250,250,.55);
+  padding: 7px 16px;
+  font-weight: 500;
+  font-size: 11.5px;
+  letter-spacing: .22em;
   text-transform: uppercase;
 }
-.hm13 {
-  font-family: var(--font-serif);
+.hm11 {
+  font-family: var(--font-display);
   font-style: italic;
+  font-variation-settings: 'wght' 440;
   font-size: 34px;
   line-height: 1;
 }
-.hm14 {
+.hm12 {
   font-weight: 700;
-  font-size: 44px;
+  font-size: 46px;
   line-height: 1.04;
-  letter-spacing: -.025em;
+  letter-spacing: -.03em;
   text-transform: uppercase;
-  margin-bottom: 16px;
 }
-.hm15 {
-  margin: 0;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 1.5;
-  color: rgba(255,255,255,.88);
-  max-width: 34ch;
-}
-.hm16 {
+.hm13 {
   display: block;
   text-decoration: none;
   background: var(--papel);
   color: var(--tinta);
-  border: 1.5px solid var(--klein);
-  border-radius: 20px;
+  border: 1px solid var(--tinta);
   padding: 40px 40px 36px;
   box-sizing: border-box;
   transition: transform .28s cubic-bezier(.2,.8,.2,1);
 }
-.hm16:hover {
-  transform: translateY(-4px);
+.hm13:hover {
+  transform: translateY(-3px);
+}
+.hm14 {
+  border: 1px solid var(--tinta);
+  padding: 7px 16px;
+  font-weight: 500;
+  font-size: 11.5px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+}
+.hm15 {
+  grid-column: 1 / -1;
+  border: 1px solid var(--tinta);
+  padding: 34px 40px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.hm16 {
+  margin-bottom: 14px;
 }
 .hm17 {
-  border: 1.5px solid var(--klein);
-  border-radius: 999px;
-  padding: 6px 18px;
   font-weight: 700;
-  font-size: 11px;
-  letter-spacing: .16em;
+  font-size: 34px;
+  line-height: 1.04;
+  letter-spacing: -.03em;
   text-transform: uppercase;
-  color: var(--klein);
 }
 .hm18 {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: 34px;
-  line-height: 1;
-  color: var(--klein);
+  display: flex;
+  gap: 12px;
+  flex: 0 0 auto;
 }
 .hm19 {
-  margin: 0;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 1.5;
-  color: var(--tinta-suave);
-  max-width: 34ch;
+  border: 1px solid var(--tinta);
+  padding: 14px 26px;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--tinta);
+  transition: background .2s,color .2s;
+}
+.hm19:hover {
+  background: var(--tinta);
+  color: var(--papel);
 }
 .hm20 {
+  border: 1px solid var(--tinta);
+  padding: 14px 26px;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--tinta);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background .2s,color .2s;
+}
+.hm20:hover {
+  background: var(--tinta);
+  color: var(--papel);
+}
+.hm21 {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-variation-settings: 'wght' 440;
+  font-size: 17px;
+}
+.hm22 {
+  background: var(--tinta);
+  color: var(--blanco);
+  border: 1px solid var(--tinta);
+  padding: 14px 26px;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hm23 {
   max-width: 1180px;
   margin: 0 auto;
   width: 100%;
-  border-top: 1px solid rgba(0,0,0,.14);
+  border-top: 1px solid rgba(23,23,23,.2);
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
   font-weight: 500;
-  font-size: 11px;
-  letter-spacing: .16em;
+  font-size: 11.5px;
+  letter-spacing: .22em;
   text-transform: uppercase;
-  color: rgba(0,0,0,.45);
+  color: var(--gris-claro);
+}
+.hm24 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.hm25 {
+  height: 18px;
+  width: auto;
+  display: block;
+  opacity: .55;
 }
 /* ↑ fin del tramo generado ↑ */
+
 /* ============================================================
-   Mobile — una columna, el mismo sistema en escala de teléfono.
-   La escala tipográfica baja de 76/44/19 a 42/28/16.
+   Mobile — una columna. La escala baja de 78/46/34 a 40/28/24 y
+   los tres botones del pitch deck se apilan a lo ancho.
    ============================================================ */
 @media (max-width: 760px) {
-  .hm1 {                       /* pantalla */
-    padding: 40px 22px 30px;
-    gap: 34px;
+  .hm1 {                                 /* pantalla */
+    padding: 34px 22px 28px;
+    gap: 30px;
   }
-  .hm5, .hm12, .hm17 {         /* kicker y pills */
-    font-size: 10.5px;
-    letter-spacing: .14em;
+  .hm3 {                                 /* fila del kicker */
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0 0 22px;
   }
-  .hm6 {                       /* h1 */
-    font-size: clamp(34px, 11.5vw, 62px);
-    margin: 0 0 12px;
+  .hm4, .hm5, .hm10, .hm14 {             /* etiquetas encajonadas y sellos */
+    font-size: 10px;
+    letter-spacing: .18em;
   }
-  .hm7 { font-size: 21px; }    /* subtítulo Redaction */
-  .hm8 {                       /* bajada */
-    font-size: 16px;
-    margin: 14px 0 0;
-  }
-  .hm9 {                       /* grid de cards */
+  .hm4 { padding: 7px 12px; }
+  .hm6 { font-size: clamp(34px, 11.5vw, 62px); }   /* h1 */
+  .hm7 {                                 /* grilla de tarjetas */
     grid-template-columns: 1fr;
     gap: 16px;
   }
-  .hm10, .hm16 {               /* cards */
-    padding: 26px 24px 24px;
-    border-radius: 16px;
-  }
-  .hm11 { margin-bottom: 46px; }
-  .hm12, .hm17 { padding: 5px 14px; }
-  .hm13, .hm18 { font-size: 28px; }
-  .hm14 { font-size: 30px; }   /* título de card */
-  .hm15, .hm19 { font-size: 16px; }
-  .hm20 {                      /* pie */
+  .hm8, .hm13 { padding: 26px 24px 24px; }
+  .hm9 { margin-bottom: 62px; }          /* aire dentro de la tarjeta */
+  .hm11 { font-size: 28px; }             /* flecha */
+  .hm12 { font-size: 30px; }             /* título de tarjeta */
+
+  .hm15 {                                /* fila del pitch deck */
     flex-direction: column;
-    gap: 6px;
+    align-items: stretch;
+    gap: 22px;
+    padding: 26px 24px;
+  }
+  .hm17 { font-size: 26px; }
+  .hm18 {                                /* los tres botones, uno por línea */
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .hm19, .hm20, .hm22 {
+    justify-content: center;
+    padding: 15px 20px;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .hm23 {                                /* pie */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
     font-size: 10px;
   }
 }

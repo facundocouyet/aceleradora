@@ -1,0 +1,71 @@
+/* ============================================================
+   Cáscara Partners — tokens del sistema F3 en monocromo.
+   Cuatro valores y dos derivados, cero color: la jerarquía se
+   hace con peso, escala y reglas. Radio 0 salvo círculos
+   verdaderos y el pill de Home. Sin sombras.
+
+   Lo usan el home, el informe y la oferta al cliente. El deck
+   interno y su versión mobile siguen en el sistema Cáscara
+   (tokens.css) hasta que el diseño los migre.
+   ============================================================ */
+
+/* ---- Helvetica Now Display — el caballo de batalla ---- */
+@font-face {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNowDisplay-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNowDisplay-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNowDisplay-Bold.woff2") format("woff2");
+}
+
+/* ---- Exposure — la serif de tinta, variable en el eje de peso.
+        Va con cuentagotas: el énfasis de una a cuatro palabras y
+        las cifras monumentales (wght 620–640). ---- */
+@font-face {
+  font-family: "Exposure";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../assets/fonts/ExposureVAR.ttf") format("truetype-variations");
+}
+@font-face {
+  font-family: "Exposure";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../assets/fonts/ExposureVAR-Italic.ttf") format("truetype-variations");
+}
+
+:root {
+  --tinta: #171717;        /* fondo oscuro, texto sobre papel, reglas */
+  --papel: #ECEAE4;        /* fondo claro por defecto, cálido */
+  --blanco: #FAFAFA;       /* texto sobre tinta */
+  --gris: #2D2D2D;         /* cuerpo secundario sobre papel */
+  --gris-claro: #6A6A66;   /* texto terciario, metadata */
+  --relleno: #E2DFD8;      /* callouts y bandas sobre papel */
+  --fondo: var(--papel);   /* fondo de página */
+
+  --font-base: "Helvetica Now Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "Exposure", Georgia, "Times New Roman", serif;
+
+  /* El chrome que no es del diseño —pill, rail, notas— toma su tinta de acá */
+  --chrome-ink: var(--tinta);
+  --chrome-ink-strong: #000000;
+  --chrome-on-ink: var(--blanco);
+
+  --ease: cubic-bezier(.2, .8, .2, 1);
+}

@@ -14,6 +14,11 @@
 
   let index = 0;
 
+  // El letterbox y las miniaturas toman la superficie de la slide. En el deck
+  // interno el fondo vive en la <section>; en la oferta, en el div de adentro.
+  const surface = slide =>
+    slide.style.background || getComputedStyle(slide.firstElementChild).backgroundColor;
+
   /* ---- Escalado: el canvas de 1920 × 1080 entra entero en la ventana ---- */
   const fit = () => {
     const scale = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
@@ -28,7 +33,7 @@
 
     const thumb = document.createElement('div');
     thumb.className = 'thumb';
-    thumb.style.background = slide.style.background;
+    thumb.style.background = surface(slide);
     thumb.appendChild(slide.firstElementChild.cloneNode(true));
 
     const label = document.createElement('span');
@@ -46,8 +51,8 @@
     slides.forEach((slide, n) => slide.toggleAttribute('data-active', n === index));
     railItems.forEach((item, n) => item.toggleAttribute('data-active', n === index));
 
-    // El letterbox toma el fondo de la slide activa, así no queda franja
-    stage.style.background = slides[index].style.background;
+    // Sin franja: el letterbox toma la superficie de la slide activa
+    stage.style.background = surface(slides[index]);
 
     notesBody.textContent = slides[index].dataset.speakerNotes || 'Sin notas.';
     if (railItems[index]) railItems[index].scrollIntoView({ block: 'nearest' });

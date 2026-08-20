@@ -1,0 +1,46 @@
+/* ============================================================
+   Base común a las cinco piezas. El color lo pone la hoja de
+   tokens que cada página linkea antes que esta.
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--fondo);
+}
+
+body {
+  font-family: var(--font-base);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--chrome-ink); color: var(--chrome-on-ink); }
+
+a { color: var(--chrome-ink); text-decoration: none; }
+
+/* ---- Pill "← Home" ---- */
+.home-pill {
+  position: fixed;
+  z-index: 99;
+  background: var(--chrome-ink);
+  color: var(--chrome-on-ink);
+  border: 1.5px solid rgba(255, 255, 255, .5);
+  border-radius: 999px;
+  padding: 10px 22px;
+  font-weight: 700;
+  font-size: 11.5px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  transition: background .2s var(--ease);
+}
+.home-pill:hover { background: var(--chrome-ink-strong); }
+
+.home-pill--top-center { left: 50%; top: 14px; transform: translateX(-50%); }
+.home-pill--top-right { right: 14px; top: 14px; }
+
+@media print {
+  .home-pill { display: none !important; }
+}

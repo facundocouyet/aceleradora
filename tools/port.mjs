@@ -25,17 +25,14 @@ if (!SRC) {
 }
 const OUT = path.resolve(import.meta.dirname, '..');
 
-const SANS = /'Helvetica Neue LT Std','Helvetica Neue',Helvetica,Arial,sans-serif/g;
-const SERIF = /'Redaction',Georgia,serif/g;
-
+// La paleta del sistema F3: cuatro valores y dos derivados, cero color
 const tokenize = css => css
-  .replace(SANS, 'var(--font-sans)')
-  .replace(SERIF, 'var(--font-serif)')
-  .replace(/#10069F/gi, 'var(--klein)')
-  .replace(/#DBD7D2/gi, 'var(--tiza)')
-  .replace(/#FBFAF8/gi, 'var(--papel)')
-  .replace(/#0A0A0C/gi, 'var(--tinta)')
-  .replace(/#1A1A1E/gi, 'var(--tinta-suave)');
+  .replace(/#171717/gi, 'var(--tinta)')
+  .replace(/#ECEAE4/gi, 'var(--papel)')
+  .replace(/#FAFAFA/gi, 'var(--blanco)')
+  .replace(/#2D2D2D/gi, 'var(--gris)')
+  .replace(/#6A6A66/gi, 'var(--gris-claro)')
+  .replace(/#E2DFD8/gi, 'var(--relleno)');
 
 const decls = style => style.split(';').map(s => s.trim()).filter(Boolean)
   .map(s => '  ' + s.replace(/^([^:]+):\s*/, '$1: ') + ';').join('\n');
@@ -70,7 +67,9 @@ const read = f => fs.readFileSync(path.join(SRC, f), 'utf8');
 const relink = s => s
   .replace(/href="Aceleradora%20Presentacion\.dc\.html"/g, 'href="presentacion.html"')
   .replace(/href="Aceleradora%20Informe\.dc\.html"/g, 'href="informe.html"')
-  .replace(/href="Aceleradora\.dc\.html"/g, 'href="index.html"');
+  .replace(/href="Aceleradora\.dc\.html"/g, 'href="index.html"')
+  .replace(/href="Cascara%20Partner%20Oferta\.dc\.html\?print=1"/g, 'href="oferta.html?print=1"')
+  .replace(/href="Cascara%20Partner%20Oferta\.dc\.html"/g, 'href="oferta.html"');
 
 const writePage = (file, body) => fs.writeFileSync(path.join(OUT, file), body);
 
@@ -102,8 +101,7 @@ const head = (title, description, styles, extra = '') => `<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${title}</title>
 <meta name="description" content="${description}">
-<link rel="stylesheet" href="css/tokens.css">
-<link rel="stylesheet" href="css/${styles}.css">
+${styles.map(s => `<link rel="stylesheet" href="css/${s}.css">`).join('\n')}
 ${extra}</head>
 <body>
 `;
@@ -112,9 +110,9 @@ ${extra}</head>
   const body = read('Aceleradora.dc.html').match(/<\/helmet>\s*([\s\S]*?)\s*<\/x-dc>/)[1];
   const { html, css, count } = extract(relink(body), 'hm');
   writePage('index.html', head(
-    'Aceleradora Cáscara · Documento interno v10',
-    'Aceleradora Cáscara — la oferta unificada en presentación e informe. Documento interno, versión 10, agosto 2026.',
-    'home') + html + '</body>\n</html>\n');
+    'Cáscara Partners · La Aceleradora',
+    'Cáscara Partners — la Aceleradora en presentación e informe. Documento interno, versión 10, agosto 2026.',
+    ['tokens-f3', 'base', 'home']) + html + '</body>\n</html>\n');
   writeStyles('css/home.css', 'hm', css);
   console.log('home:', count, 'reglas');
 }
@@ -123,9 +121,9 @@ ${extra}</head>
   const slides = read('Aceleradora Presentacion.dc.html').match(/<x-import[^>]*>\s*([\s\S]*?)\s*<\/x-import>/)[1];
   const { html, css, count } = extract(slides, 'sl', { skipTags: ['section'] });
   writePage('presentacion.html', head(
-    'Aceleradora Cáscara · Presentación',
-    'La oferta unificada de la Aceleradora Cáscara en 16 slides.',
-    'deck',
+    'Cáscara Partners · Presentación',
+    'La oferta unificada de la Aceleradora en 16 slides.',
+    ['tokens-f3', 'base', 'deck-chrome', 'deck'],
     `<script>
   // En teléfono la presentación es otra pieza: 18 pantallas en scroll
   // vertical. Se decide antes de pintar para no mostrar el deck y saltar.
@@ -164,9 +162,9 @@ ${extra}</head>
     .replace(/ref="\{\{ barRef \}\}"/, 'id="progress-fill"');
   const { html, css, count } = extract(relink(body), 'mb');
   writePage('presentacion-mobile.html', head(
-    'Aceleradora Cáscara · Presentación',
-    'La oferta unificada de la Aceleradora Cáscara, en scroll vertical.',
-    'deck-mobile').replace(
+    'Cáscara Partners · Presentación',
+    'La oferta unificada de la Aceleradora, en scroll vertical.',
+    ['tokens-f3', 'base', 'deck-mobile']).replace(
       '<meta name="viewport" content="width=device-width, initial-scale=1">',
       '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">'
     ) + html + '<script src="js/deck-mobile.js"></script>\n</body>\n</html>\n');
@@ -181,9 +179,9 @@ ${extra}</head>
     .replace(/<\/div>\s*$/, '');
   const { html, css, count } = extract(doc, 'rp');
   writePage('informe.html', head(
-    'Aceleradora Cáscara · Documento maestro v10',
-    'Documento maestro de la Aceleradora Cáscara: la oferta, el proceso, la camada y el lanzamiento. 16 secciones más el anexo de los tres checklists.',
-    'informe') + `<a class="home-pill home-pill--top-right" href="index.html">← Home</a>
+    'Cáscara Partners · Documento maestro v10',
+    'Documento maestro de la Aceleradora: la oferta, el proceso, la camada y el lanzamiento. 16 secciones más el anexo de los tres checklists.',
+    ['tokens-f3', 'base', 'informe']) + `<a class="home-pill home-pill--top-right" href="index.html">← Home</a>
 
 <div class="desk">
   <div class="sheet">
@@ -208,6 +206,43 @@ ${extra}</head>
 `);
   writeStyles('css/informe.css', 'rp', css);
   console.log('informe:', count, 'reglas');
+}
+
+{ // la oferta al cliente — 10 slides, mismo escenario que el deck interno
+  const slides = read('Cascara Partner Oferta.dc.html').match(/<x-import[^>]*>\s*([\s\S]*?)\s*<\/x-import>/)[1];
+  const { html, css, count } = extract(slides, 'of', { skipTags: ['section'] });
+  writePage('oferta.html', head(
+    'Cáscara Partners · La oferta',
+    'La Aceleradora de Cáscara Partners: qué es, el recorrido de 90 días, las orientaciones, los founders y cómo se entra.',
+    ['tokens-f3', 'base', 'deck-chrome', 'oferta'],
+    `<script>
+  // El botón "PDF ↓" del home entra por acá: el deck se abre e imprime solo.
+  // La espera le da tiempo a las fuentes y a las fotos.
+  if (new URLSearchParams(location.search).has('print')) {
+    addEventListener('load', () => setTimeout(() => print(), 1400));
+  }
+</script>
+`) + `<div class="stage">
+  <div class="canvas">
+` + html.replace(/<section data-label=/g, '<section class="slide" data-label=') + `
+  </div>
+</div>
+
+<nav class="rail" aria-label="Miniaturas de las slides"></nav>
+
+<aside class="notes">
+  <span class="notes-label">Notas del orador</span>
+  <p class="notes-body"></p>
+</aside>
+
+<div class="hint">← → navegar · T miniaturas · N notas</div>
+
+<script src="js/deck.js"></script>
+</body>
+</html>
+`);
+  writeStyles('css/oferta.css', 'of', css);
+  console.log('oferta:', count, 'reglas');
 }
 
 // El contenido en texto plano viaja con el bundle
