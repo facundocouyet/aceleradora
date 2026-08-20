@@ -111,7 +111,7 @@ ${extra}</head>
   const { html, css, count } = extract(relink(body), 'hm');
   writePage('index.html', head(
     'Cáscara Partners · La Aceleradora',
-    'Cáscara Partners — la Aceleradora en presentación e informe. Documento interno, versión 10, agosto 2026.',
+    'Cáscara Partners — la Aceleradora en presentación e informe. Documento interno, agosto 2026.',
     ['tokens-f3', 'base', 'home']) + html + '</body>\n</html>\n');
   writeStyles('css/home.css', 'hm', css);
   console.log('home:', count, 'reglas');
@@ -179,7 +179,7 @@ ${extra}</head>
     .replace(/<\/div>\s*$/, '');
   const { html, css, count } = extract(doc, 'rp');
   writePage('informe.html', head(
-    'Cáscara Partners · Documento maestro v10',
+    'Cáscara Partners · Documento maestro',
     'Documento maestro de la Aceleradora: la oferta, el proceso, la camada y el lanzamiento. 16 secciones más el anexo de los tres checklists.',
     ['tokens-f3', 'base', 'informe']) + `<a class="home-pill home-pill--top-right" href="index.html">← Home</a>
 
