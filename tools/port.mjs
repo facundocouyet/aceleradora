@@ -110,8 +110,8 @@ ${extra}</head>
   const body = read('Aceleradora.dc.html').match(/<\/helmet>\s*([\s\S]*?)\s*<\/x-dc>/)[1];
   const { html, css, count } = extract(relink(body), 'hm');
   writePage('index.html', head(
-    'Cáscara Partners · La Aceleradora',
-    'Cáscara Partners — la Aceleradora en presentación e informe. Documento interno, agosto 2026.',
+    'Cáscara Founders · La Aceleradora',
+    'Cáscara Founders — la Aceleradora en presentación e informe. Documento interno, agosto 2026.',
     ['tokens-f3', 'base', 'home']) + html + '</body>\n</html>\n');
   writeStyles('css/home.css', 'hm', css);
   console.log('home:', count, 'reglas');
@@ -121,7 +121,7 @@ ${extra}</head>
   const slides = read('Aceleradora Presentacion.dc.html').match(/<x-import[^>]*>\s*([\s\S]*?)\s*<\/x-import>/)[1];
   const { html, css, count } = extract(slides, 'sl', { skipTags: ['section'] });
   writePage('presentacion.html', head(
-    'Cáscara Partners · Presentación',
+    'Cáscara Founders · Presentación',
     'La oferta unificada de la Aceleradora en 16 slides.',
     ['tokens-f3', 'base', 'deck-chrome', 'deck'],
     `<script>
@@ -162,7 +162,7 @@ ${extra}</head>
     .replace(/ref="\{\{ barRef \}\}"/, 'id="progress-fill"');
   const { html, css, count } = extract(relink(body), 'mb');
   writePage('presentacion-mobile.html', head(
-    'Cáscara Partners · Presentación',
+    'Cáscara Founders · Presentación',
     'La oferta unificada de la Aceleradora, en scroll vertical.',
     ['tokens-f3', 'base', 'deck-mobile']).replace(
       '<meta name="viewport" content="width=device-width, initial-scale=1">',
@@ -179,7 +179,7 @@ ${extra}</head>
     .replace(/<\/div>\s*$/, '');
   const { html, css, count } = extract(doc, 'rp');
   writePage('informe.html', head(
-    'Cáscara Partners · Documento maestro',
+    'Cáscara Founders · Documento maestro',
     'Documento maestro de la Aceleradora: la oferta, el proceso, la camada y el lanzamiento. 16 secciones más el anexo de los tres checklists.',
     ['tokens-f3', 'base', 'informe']) + `<a class="home-pill home-pill--top-right" href="index.html">← Home</a>
 
@@ -212,8 +212,8 @@ ${extra}</head>
   const slides = read('Cascara Partner Oferta.dc.html').match(/<x-import[^>]*>\s*([\s\S]*?)\s*<\/x-import>/)[1];
   const { html, css, count } = extract(slides, 'of', { skipTags: ['section'] });
   writePage('oferta.html', head(
-    'Cáscara Partners · La oferta',
-    'La Aceleradora de Cáscara Partners: qué es, el recorrido de 90 días, las orientaciones, los founders y cómo se entra.',
+    'Cáscara Founders · La oferta',
+    'La Aceleradora de Cáscara Founders: qué es, sobre qué trabajás, el recorrido de 90 días, la semana, los founders y cómo se entra.',
     ['tokens-f3', 'base', 'deck-chrome', 'oferta'],
     `<script>
   // El botón "PDF ↓" del home entra por acá: el deck se abre e imprime solo.

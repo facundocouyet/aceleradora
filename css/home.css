@@ -43,12 +43,9 @@
   color: var(--gris-claro);
 }
 .hm6 {
-  margin: 0;
-  font-weight: 700;
-  font-size: 78px;
-  line-height: 1.02;
-  letter-spacing: -.035em;
-  text-transform: uppercase;
+  width: 340px;
+  height: auto;
+  display: block;
 }
 .hm7 {
   max-width: 1180px;
@@ -209,22 +206,11 @@
   text-transform: uppercase;
   color: var(--gris-claro);
 }
-.hm24 {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-.hm25 {
-  height: 18px;
-  width: auto;
-  display: block;
-  opacity: .55;
-}
 /* ↑ fin del tramo generado ↑ */
 
 /* ============================================================
-   Mobile — una columna. La escala baja de 78/46/34 a 40/28/24 y
-   los tres botones del pitch deck se apilan a lo ancho.
+   Mobile — una columna. El lockup y los títulos bajan de escala,
+   y los tres botones del pitch deck se apilan a lo ancho.
    ============================================================ */
 @media (max-width: 760px) {
   .hm1 {                                 /* pantalla */
@@ -241,7 +227,7 @@
     letter-spacing: .18em;
   }
   .hm4 { padding: 7px 12px; }
-  .hm6 { font-size: clamp(34px, 11.5vw, 62px); }   /* h1 */
+  .hm6 { width: min(260px, 64vw); }      /* lockup */
   .hm7 {                                 /* grilla de tarjetas */
     grid-template-columns: 1fr;
     gap: 16px;

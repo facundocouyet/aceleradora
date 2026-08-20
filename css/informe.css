@@ -70,7 +70,7 @@
 
 /* ↓ generado por tools/port.mjs · no editar a mano ↓ */
 .rp1 {
-  width: 212px;
+  width: 224px;
   height: auto;
   display: block;
   margin: 0 0 26px;
@@ -507,25 +507,18 @@
   background: rgba(23,23,23,.05);
 }
 .rp73 {
-  display: grid;
-  grid-template-columns: .85fr 1.35fr .6fr .65fr 1.4fr 1.6fr;
-  gap: 9px;
-  padding: 5px 0;
-  border-bottom: 1px solid rgba(0,0,0,.14);
-}
-.rp74 {
   border: 1px solid var(--tinta);
   border-radius: 0;
   padding: 15px 19px;
   margin: 0 0 18px;
   break-inside: avoid;
 }
-.rp75 {
+.rp74 {
   break-inside: avoid;
   font-size: 13.5px;
   margin-bottom: 10px;
 }
-.rp76 {
+.rp75 {
   display: grid;
   grid-template-columns: 1.4fr 1.4fr 1.9fr;
   gap: 12px;
@@ -533,52 +526,52 @@
   border-bottom: 2px solid var(--tinta);
   font-weight: 700;
 }
-.rp77 {
+.rp76 {
   display: grid;
   grid-template-columns: 1.4fr 1.4fr 1.9fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
 }
-.rp78 {
+.rp77 {
   color: var(--tinta);
   font-weight: 700;
 }
-.rp79 {
+.rp78 {
   display: grid;
   grid-template-columns: 1.4fr 1.4fr 1.9fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp80 {
+.rp79 {
   break-inside: avoid;
   font-size: 13px;
   margin-bottom: 14px;
 }
-.rp81 {
+.rp80 {
   display: grid;
   grid-template-columns: 1fr 1.6fr 1.6fr 1.6fr;
   gap: 12px;
   padding: 8px 0;
   border-bottom: 2px solid var(--tinta);
   font-weight: 700;
+}
+.rp81 {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr 1.6fr 1.6fr;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp82 {
   display: grid;
   grid-template-columns: 1fr 1.6fr 1.6fr 1.6fr;
   gap: 12px;
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
-}
-.rp83 {
-  display: grid;
-  grid-template-columns: 1fr 1.6fr 1.6fr 1.6fr;
-  gap: 12px;
-  padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp84 {
+.rp83 {
   border: 1px dashed var(--tinta);
   border-radius: 0;
   padding: 14px 18px;
@@ -586,7 +579,7 @@
   break-inside: avoid;
   font-size: 13.5px;
 }
-.rp85 {
+.rp84 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 16px;
@@ -594,54 +587,54 @@
   break-inside: avoid;
   font-size: 13px;
 }
-.rp86 {
+.rp85 {
   border-top: 2px solid var(--tinta);
   padding-top: 12px;
 }
-.rp87 {
+.rp86 {
   font-weight: 700;
   font-size: 15px;
   margin-bottom: 2px;
 }
-.rp88 {
+.rp87 {
   font-family: var(--font-display);
   font-style: italic;
   font-variation-settings: 'wght' 420;
   color: var(--tinta);
   margin-bottom: 8px;
 }
-.rp89 {
+.rp88 {
   display: grid;
   gap: 3px;
 }
-.rp90 {
+.rp89 {
   break-inside: avoid;
   font-size: 13px;
   margin-bottom: 12px;
 }
-.rp91 {
+.rp90 {
   display: grid;
   grid-template-columns: .9fr 1.7fr 1.7fr 1.7fr;
   gap: 12px;
   padding: 8px 0;
   border-bottom: 2px solid var(--tinta);
   font-weight: 700;
+}
+.rp91 {
+  display: grid;
+  grid-template-columns: .9fr 1.7fr 1.7fr 1.7fr;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp92 {
   display: grid;
   grid-template-columns: .9fr 1.7fr 1.7fr 1.7fr;
   gap: 12px;
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
-}
-.rp93 {
-  display: grid;
-  grid-template-columns: .9fr 1.7fr 1.7fr 1.7fr;
-  gap: 12px;
-  padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp94 {
+.rp93 {
   display: grid;
   grid-template-columns: 1.5fr 1.4fr 1.4fr;
   gap: 12px;
@@ -649,21 +642,21 @@
   border-bottom: 2px solid var(--tinta);
   font-weight: 700;
 }
-.rp95 {
+.rp94 {
   display: grid;
   grid-template-columns: 1.5fr 1.4fr 1.4fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
 }
-.rp96 {
+.rp95 {
   display: grid;
   grid-template-columns: 1.5fr 1.4fr 1.4fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp97 {
+.rp96 {
   font-weight: 500;
   font-size: 12px;
   letter-spacing: .14em;
@@ -674,135 +667,135 @@
   padding: 2px 10px;
   vertical-align: middle;
 }
-.rp98 {
+.rp97 {
   break-inside: avoid;
   margin-bottom: 12px;
   font-size: 13.5px;
 }
-.rp99 {
+.rp98 {
   margin: 12px 0 6px;
   font-weight: 700;
 }
-.rp100 {
+.rp99 {
   margin: 0 0 6px;
   font-size: 13px;
   color: rgba(0,0,0,.6);
 }
-.rp101 {
+.rp100 {
   color: rgba(0,0,0,.55);
 }
-.rp102 {
+.rp101 {
   border: 1px dashed var(--tinta);
   border-radius: 0;
   padding: 14px 18px;
   break-inside: avoid;
   font-size: 13.5px;
 }
-.rp103 {
+.rp102 {
   display: grid;
   grid-template-columns: .9fr 1.2fr 2.2fr 1.6fr;
   gap: 12px;
   padding: 8px 0;
   border-bottom: 2px solid var(--tinta);
   font-weight: 700;
+}
+.rp103 {
+  display: grid;
+  grid-template-columns: .9fr 1.2fr 2.2fr 1.6fr;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp104 {
   display: grid;
   grid-template-columns: .9fr 1.2fr 2.2fr 1.6fr;
   gap: 12px;
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
-}
-.rp105 {
-  display: grid;
-  grid-template-columns: .9fr 1.2fr 2.2fr 1.6fr;
-  gap: 12px;
-  padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp106 {
+.rp105 {
   display: grid;
   grid-template-columns: 2fr 1.2fr 1.4fr;
   gap: 12px;
   padding: 8px 0;
   border-bottom: 2px solid var(--tinta);
   font-weight: 700;
+}
+.rp106 {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr 1.4fr;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp107 {
   display: grid;
   grid-template-columns: 2fr 1.2fr 1.4fr;
   gap: 12px;
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
-}
-.rp108 {
-  display: grid;
-  grid-template-columns: 2fr 1.2fr 1.4fr;
-  gap: 12px;
-  padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp109 {
+.rp108 {
   border: 1px solid var(--tinta);
   border-radius: 0;
   padding: 15px 19px;
   break-inside: avoid;
 }
-.rp110 {
+.rp109 {
   margin: 0 0 18px;
   font-size: 13.5px;
   color: rgba(0,0,0,.6);
 }
-.rp111 {
+.rp110 {
   display: grid;
   grid-template-columns: 1.3fr 2.6fr;
   gap: 12px;
   padding: 8px 0;
   border-bottom: 2px solid var(--tinta);
   font-weight: 700;
+}
+.rp111 {
+  display: grid;
+  grid-template-columns: 1.3fr 2.6fr;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp112 {
   display: grid;
   grid-template-columns: 1.3fr 2.6fr;
   gap: 12px;
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
-}
-.rp113 {
-  display: grid;
-  grid-template-columns: 1.3fr 2.6fr;
-  gap: 12px;
-  padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp114 {
+.rp113 {
   break-inside: avoid;
   font-size: 11.5px;
   margin-bottom: 14px;
 }
-.rp115 {
+.rp114 {
   display: grid;
   grid-template-columns: 1.4fr repeat(6,1fr);
   gap: 8px;
   padding: 8px 0;
   border-bottom: 2px solid var(--tinta);
   font-weight: 700;
+}
+.rp115 {
+  display: grid;
+  grid-template-columns: 1.4fr repeat(6,1fr);
+  gap: 8px;
+  padding: 7px 0;
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp116 {
   display: grid;
   grid-template-columns: 1.4fr repeat(6,1fr);
   gap: 8px;
   padding: 7px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
-}
-.rp117 {
-  display: grid;
-  grid-template-columns: 1.4fr repeat(6,1fr);
-  gap: 8px;
-  padding: 7px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp118 {
+.rp117 {
   display: grid;
   grid-template-columns: 1.3fr 1fr 2.4fr;
   gap: 12px;
@@ -810,50 +803,50 @@
   border-bottom: 2px solid var(--tinta);
   font-weight: 700;
 }
-.rp119 {
+.rp118 {
   display: grid;
   grid-template-columns: 1.3fr 1fr 2.4fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
 }
-.rp120 {
+.rp119 {
   color: rgba(0,0,0,.5);
 }
-.rp121 {
+.rp120 {
   display: grid;
   grid-template-columns: 1.3fr 1fr 2.4fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp122 {
+.rp121 {
   margin: 0 0 14px;
   font-size: 13.5px;
 }
-.rp123 {
+.rp122 {
   display: grid;
   grid-template-columns: 1.4fr .9fr 2.4fr;
   gap: 12px;
   padding: 8px 0;
   border-bottom: 2px solid var(--tinta);
   font-weight: 700;
+}
+.rp123 {
+  display: grid;
+  grid-template-columns: 1.4fr .9fr 2.4fr;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp124 {
   display: grid;
   grid-template-columns: 1.4fr .9fr 2.4fr;
   gap: 12px;
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
-}
-.rp125 {
-  display: grid;
-  grid-template-columns: 1.4fr .9fr 2.4fr;
-  gap: 12px;
-  padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp126 {
+.rp125 {
   display: grid;
   grid-template-columns: 1.4fr 3fr;
   gap: 12px;
@@ -861,42 +854,42 @@
   border-bottom: 2px solid var(--tinta);
   font-weight: 700;
 }
-.rp127 {
+.rp126 {
   display: grid;
   grid-template-columns: 1.4fr 3fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
 }
-.rp128 {
+.rp127 {
   display: grid;
   grid-template-columns: 1.4fr 3fr;
   gap: 12px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp129 {
+.rp128 {
   border: 1px solid var(--tinta);
   border-radius: 0;
   padding: 15px 19px;
   margin: 0 0 10px;
   break-inside: avoid;
 }
-.rp130 {
+.rp129 {
   break-inside: avoid;
   margin-bottom: 14px;
 }
-.rp131 {
+.rp130 {
   display: flex;
   align-items: baseline;
   gap: 12px;
   margin-bottom: 5px;
 }
-.rp132 {
+.rp131 {
   font-weight: 700;
   font-size: 16px;
 }
-.rp133 {
+.rp132 {
   border: 1px solid var(--tinta);
   border-radius: 999px;
   padding: 2px 12px;
@@ -906,71 +899,71 @@
   text-transform: uppercase;
   color: var(--tinta);
 }
-.rp134 {
+.rp133 {
   margin: 0;
   font-size: 13.5px;
 }
-.rp135 {
+.rp134 {
   break-inside: avoid;
 }
-.rp136 {
+.rp135 {
   font-weight: 700;
   font-size: 16px;
   margin-bottom: 5px;
 }
-.rp137 {
+.rp136 {
   font-family: inherit;
   color: var(--tinta);
 }
-.rp138 {
+.rp137 {
   border: 1px solid var(--tinta);
   border-radius: 0;
   padding: 18px 22px;
   break-inside: avoid;
 }
-.rp139 {
+.rp138 {
   margin: 0 0 12px;
   font-weight: 700;
 }
-.rp140 {
+.rp139 {
   display: grid;
   gap: 7px;
   font-size: 13.5px;
 }
-.rp141 {
+.rp140 {
   display: grid;
   grid-template-columns: 26px 1fr;
   gap: 12px;
 }
-.rp142 {
+.rp141 {
   font-family: var(--font-display);
   font-style: italic;
   font-variation-settings: 'wght' 420;
   color: var(--tinta);
 }
-.rp143 {
+.rp142 {
   display: grid;
   grid-template-columns: 1.3fr 3fr 1.1fr;
   gap: 12px;
   padding: 8px 0;
   border-bottom: 2px solid var(--tinta);
   font-weight: 700;
+}
+.rp143 {
+  display: grid;
+  grid-template-columns: 1.3fr 3fr 1.1fr;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
 .rp144 {
   display: grid;
   grid-template-columns: 1.3fr 3fr 1.1fr;
   gap: 12px;
   padding: 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.08);
-}
-.rp145 {
-  display: grid;
-  grid-template-columns: 1.3fr 3fr 1.1fr;
-  gap: 12px;
-  padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp146 {
+.rp145 {
   display: grid;
   grid-template-columns: 1.4fr 2.4fr;
   gap: 14px;
@@ -978,21 +971,21 @@
   border-bottom: 2px solid var(--tinta);
   font-weight: 700;
 }
-.rp147 {
+.rp146 {
   display: grid;
   grid-template-columns: 1.4fr 2.4fr;
   gap: 14px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.08);
 }
-.rp148 {
+.rp147 {
   display: grid;
   grid-template-columns: 1.4fr 2.4fr;
   gap: 14px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0,0,0,.14);
 }
-.rp149 {
+.rp148 {
   width: 36px;
   height: 36px;
   border: 1px solid var(--tinta);
@@ -1007,45 +1000,45 @@
   color: var(--tinta);
   flex: 0 0 auto;
 }
-.rp150 {
+.rp149 {
   margin: 0 0 20px;
   font-size: 13.5px;
   color: rgba(0,0,0,.6);
 }
-.rp151 {
+.rp150 {
   break-inside: avoid;
   margin-bottom: 22px;
 }
-.rp152 {
+.rp151 {
   font-weight: 700;
   font-size: 20px;
   margin: 0 0 4px;
   color: var(--tinta);
   break-after: avoid;
 }
-.rp153 {
+.rp152 {
   margin: 0 0 4px;
   font-weight: 700;
   font-size: 13.5px;
 }
-.rp154 {
+.rp153 {
   display: grid;
   gap: 2px;
   font-size: 13.5px;
   margin-bottom: 10px;
 }
-.rp155 {
+.rp154 {
   border-left: 2px solid var(--tinta);
   background: var(--relleno);
   border-radius: 0;
   padding: 10px 16px;
   font-size: 13.5px;
 }
-.rp156 {
+.rp155 {
   break-inside: avoid;
   margin-bottom: 18px;
 }
-.rp157 {
+.rp156 {
   margin: 0 0 20px;
 }
 /* ↑ fin del tramo generado ↑ */

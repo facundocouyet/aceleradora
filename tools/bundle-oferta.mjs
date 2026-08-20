@@ -1,5 +1,5 @@
 /* ============================================================
-   Arma "Cascara Partners - La Oferta.html": el deck de la oferta
+   Arma "Cascara Founders - La Oferta.html": el deck de la oferta
    en un solo archivo, para el botón "HTML ↓" del home.
 
      node tools/bundle-oferta.mjs
@@ -12,7 +12,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
-const OUT = 'Cascara Partners - La Oferta.html';
+const OUT = 'Cascara Founders - La Oferta.html';
 
 const MIME = {
   '.woff2': 'font/woff2',

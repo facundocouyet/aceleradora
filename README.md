@@ -1,4 +1,4 @@
-# Cáscara Partners — La Aceleradora
+# Cáscara Founders — La Aceleradora
 
 Documentación de la oferta unificada (Cáscara + F3), versión 10 · agosto 2026.
 Sitio estático, sin build ni dependencias: se abre con cualquier servidor de archivos.
@@ -11,8 +11,8 @@ Sitio estático, sin build ni dependencias: se abre con cualquier servidor de ar
 | [`presentacion.html`](presentacion.html) | Deck interno de 16 slides de 1920 × 1080, escaladas al viewport. |
 | [`presentacion-mobile.html`](presentacion-mobile.html) | La misma presentación re-cortada para teléfono: 18 pantallas apiladas en scroll vertical, con índice tocable y barra de progreso. No es el deck escalado. |
 | [`informe.html`](informe.html) | Documento maestro: 16 secciones más el anexo de los tres checklists, paginado en A4 vertical con margen de 0.9in. |
-| [`oferta.html`](oferta.html) | La oferta al cliente: 10 slides. Es la pieza que se muestra afuera, y por eso no lleva el pill "← Home". |
-| `Cascara Partners - La Oferta.html` | La misma oferta en un solo archivo, con fuentes y fotos adentro. Es lo que baja el botón "HTML ↓". |
+| [`oferta.html`](oferta.html) | La oferta al cliente: 12 slides. Es la pieza que se muestra afuera, y por eso no lleva el pill "← Home". |
+| `Cascara Founders - La Oferta.html` | La misma oferta en un solo archivo, con fuentes y fotos adentro. Es lo que baja el botón "HTML ↓". |
 
 En pantallas de menos de 700px, `presentacion.html` redirige a la versión mobile antes de
 pintar. El deck se queda para proyectar y presentar; el teléfono recibe la pieza pensada para
@@ -24,7 +24,7 @@ versión mobile propia: en teléfono se ve el deck escalado, mejor en horizontal
 | Botón | Qué hace |
 |---|---|
 | **Ver** | Abre `oferta.html` |
-| **HTML ↓** | Baja `Cascara Partners - La Oferta.html`, que abre sin servidor y sin red |
+| **HTML ↓** | Baja `Cascara Founders - La Oferta.html`, que abre sin servidor y sin red |
 | **PDF ↓** | Abre `oferta.html?print=1`, que dispara el diálogo de impresión solo |
 
 Para que el PDF salga bien hay que dejar **"Gráficos de fondo"** activado en el diálogo del
@@ -71,7 +71,7 @@ el JS, las fuentes y las fotos como `data:`).
 
 ```
 ├─ index.html · presentacion.html · presentacion-mobile.html · informe.html · oferta.html
-├─ Cascara Partners - La Oferta.html    el autocontenido que se descarga
+├─ Cascara Founders - La Oferta.html    el autocontenido que se descarga
 ├─ css/
 │  ├─ tokens-f3.css     paleta monocroma, fuentes y las variables del chrome
 │  ├─ base.css          reset, selección y el pill "← Home"
@@ -79,7 +79,7 @@ el JS, las fuentes y las fotos como `data:`).
 │  ├─ home.css          home
 │  ├─ deck.css          las 16 slides internas
 │  ├─ deck-mobile.css   la columna de 520px + las 18 pantallas
-│  ├─ oferta.css        las 10 slides de la oferta
+│  ├─ oferta.css        las 12 slides de la oferta
 │  └─ informe.css       hoja A4, impresión + estilos del documento
 ├─ tools/
 │  ├─ port.mjs          el porteo del handoff, ver arriba
@@ -88,7 +88,7 @@ el JS, las fuentes y las fotos como `data:`).
 │  ├─ deck.js           escalado, navegación, rail, notas — los dos decks
 │  ├─ deck-mobile.js    barra de progreso
 │  └─ informe.js        agrupa las filas de tabla para que se desplacen en mobile
-├─ assets/              wordmark y marca P©, fotos del equipo, fuentes
+├─ assets/              el lockup cáscara/founders, fotos del equipo, fuentes
 └─ contenido/aceleradora-maestro-v10.md   el texto del informe en plano
 ```
 

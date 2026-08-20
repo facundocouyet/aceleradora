@@ -23,7 +23,7 @@ El Founder System y la Aceleradora resuelven el mismo momento del mismo cliente.
 
 **Los founders entregan, una sola marca vende.** El acceso a las cinco cabezas es lo que sostiene el precio contra cualquier programa de un consultor solo, pero la comunicación sale de una sola cuenta. Si las cinco marcas personales venden el Nivel 2, dejan de vender el Nivel 1 y se rompe la cascada.
 
-**El acceso a Franco escala con el nivel:** grabado en el Nivel 1, en vivo y 1-1 en el Nivel 2, socio en el Nivel 3. Esa escasez es el motor del ascenso.
+**El acceso a los founders escala con el nivel:** grabado en el Nivel 1, en vivo y 1-1 en el Nivel 2, socios en el Nivel 3. Esa escasez es el motor del ascenso.
 
 ---
 
@@ -40,7 +40,7 @@ El Founder System fue un programa de 60 a 90 días, con diagnóstico más sesion
 | Equipo visible | Franco y el estratega del área | Cinco founders |
 | Selección | Entrevista o propuesta directa | Filtro de admisión |
 
-**El 1-1 baja, y hay que decirlo antes de que lo pregunten.** Quien venía del Founder System tenía una sesión individual por semana. En la Aceleradora tiene siete en 90 días. Lo que gana es todo lo demás: contenido, creatividad, operaciones, cohorte y comunidad, más la misma mecánica de diagnóstico y orden de ataque que ya conoce. **Teo necesita esa respuesta escrita antes de la primera llamada**, porque es la primera objeción que va a aparecer y no se improvisa bien.
+**El 1-1 baja, y hay que decirlo antes de que lo pregunten.** Quien venía del Founder System tenía una sesión individual por semana. En la Aceleradora tiene diez en 90 días. Lo que gana es todo lo demás: contenido, creatividad, operaciones, cohorte y comunidad, más la misma mecánica de diagnóstico y orden de ataque que ya conoce. **Teo necesita esa respuesta escrita antes de la primera llamada**, porque es la primera objeción que va a aparecer y no se improvisa bien.
 
 **Lo que sí se sostiene íntegro** es lo que el Founder System hacía mejor: el diagnóstico de cuello de botella y el orden de ataque. En la Aceleradora eso es la clarity call de la semana 1 más el punto de definición del día 30. El mecanismo no cambia de nombre ni de dueño.
 
@@ -58,7 +58,7 @@ El Founder System fue un programa de 60 a 90 días, con diagnóstico más sesion
 
 ## 4. La oferta
 
-**Qué es.** 90 días con los founders metidos adentro del negocio real del alumno. Se trabaja sobre material propio: su oferta, sus llamadas, sus clientes, sus números.
+**Qué es.** 90 días con los cinco founders de Cáscara metidos adentro del negocio real de quien entra. Se trabaja sobre material propio: su oferta, sus llamadas, sus clientes, sus números.
 
 **Qué se lleva al día 90.** Una oferta que se cobra bien, un sistema de cierre repetible y una estructura de entrega que no depende de la persona en cada tarea.
 
@@ -68,12 +68,12 @@ El Founder System fue un programa de 60 a 90 días, con diagnóstico más sesion
 | Ticket | **USD 3.500** · USD 4.000 en cuotas |
 | Cupo | 16 lugares en esta camada |
 | Modelo | Evergreen. La cohorte es cerrada: arranca junta y no se entra a mitad de camino. El cupo se amplía en las camadas siguientes |
-| Sesiones 1-1 | **11 por alumno** |
+| Sesiones 1-1 | **10 por integrante** |
 | Grupales | Tres por semana, en vivo |
 | Cuenta | Cáscara Founders · privada hasta el 6/9 · pública desde el 8/9 |
 | Plataforma | App de Cáscara, en desarrollo. Recorrido, checklist y entregables en un solo lugar |
 | Equipo | Acceso a publicar en Connect Wall para armar su equipo de trabajo |
-| Soporte diario | Agente IA con la información de Cáscara adentro |
+| Soporte diario | Un encargado del equipo de Cáscara, siguiendo su evolución de forma continua |
 
 **Filtro de admisión.** Facturación de 1 a 4k mensuales de forma inconsistente, oferta armada y en movimiento, primeros clientes ya pasados.
 
@@ -85,13 +85,13 @@ El Founder System fue un programa de 60 a 90 días, con diagnóstico más sesion
 
 **No es evergreen en la entrega.** El producto se vende de forma continua, pero cada camada corre con grupales en vivo, dentro de la cohorte, en paralelo a las 1-1.
 
-**La división es limpia:** en el mes 1 las grupales quedan del lado de Fede, Juana y Teo, y las 1-1 del lado de Facu y Franco. Desde el mes 2 no hay grupales: queda solo el 1-1 de Franco y Facu, que son los que entregan el servicio cualquiera sea la orientación del alumno.
+**La división es limpia:** en el mes 1 las grupales quedan del lado de Fede, Juana y Teo, y las 1-1 del lado de Facu y Franco. Desde el mes 2 no hay grupales: queda solo el 1-1 de Franco y Facu, que son los que entregan el servicio cualquiera sea la orientación del integrante.
 
 ### Recorrido completo
 
-Las trece semanas completas. Todas las semanas hay tres grupales — operaciones el martes, creatividad el miércoles y contenido el jueves — y las 1-1 se reservan por el link de Founders.
+Las trece semanas completas. Todas las semanas hay tres grupales — operaciones el martes, creatividad el jueves y contenido el viernes — y las 1-1 se reservan por el link de Founders.
 
-| Sem | Mar · operaciones | Mié · creatividad | Jue · contenido | 1-1 |
+| Sem | Mar · operaciones | Jue · creatividad | Vie · contenido | 1-1 |
 |---|---|---|---|---|
 | **Previo** | Onboarding y formulario inicial · Teo · asincrónico, dentro de las 48 h | | | |
 | 1 | Bienvenida y setup | A quién le hablás | Línea editorial y ángulos | Clarity · **Facu** |
@@ -110,17 +110,17 @@ Las trece semanas completas. Todas las semanas hay tres grupales — operaciones
 
 Once 1-1 en total: cuatro en el mes 1, cuatro en el mes 2 y tres en el mes 3.
 
-**Las grupales de Teo, Juana y Fede no frenan nunca, y son las tres todas las semanas.** Operaciones el martes, creatividad el miércoles y contenido el jueves, las trece semanas sin excepción. Es una rotación permanente y no un tramo del recorrido: un alumno que entra en cualquier momento se suma a la semana que esté corriendo y completa los trece temas de cada frente más adelante. La rotación de temas está en la sección 6.
+**Las grupales de Teo, Juana y Fede no frenan nunca, y son las tres todas las semanas.** Operaciones el martes, creatividad el jueves y contenido el viernes, las trece semanas sin excepción. Es una rotación permanente y no un tramo del recorrido: un integrante que entra en cualquier momento se suma a la semana que esté corriendo y completa los trece temas de cada frente más adelante. La rotación de temas está en la sección 6.
 
 **Lo que sí termina en el mes 1 son las grupales de Franco y Facu.** Desde la semana 5 su aporte es enteramente 1-1, una por semana alternando entre los dos, porque a partir del mes 2 el trabajo es sobre el caso propio y no rinde en grupo.
 
 > **A definir.** Cuántas llamadas lleva el mes 3 y quién da cada una. Tres opciones desarrolladas en la sección 6.
 
-El detalle de cada instancia, con qué llega el alumno y qué se lleva, está en la sección 6.
+El detalle de cada instancia, con qué llega el integrante y qué se lleva, está en la sección 6.
 
 ### Las tres orientaciones
 
-El servicio es uno solo. La orientación no cambia lo que se entrega: cambia dónde se profundiza. Se nombra por el cuello de botella del alumno, no por el departamento que la dicta.
+El servicio es uno solo. La orientación no cambia lo que se entrega: cambia dónde se profundiza. Se nombra por el cuello de botella del integrante, no por el departamento que la dicta.
 
 | Orientación | Para quién | Dónde profundiza |
 |---|---|---|
@@ -132,10 +132,10 @@ El desarrollo completo está en la sección 6.
 
 ### Entregables
 
-Lo que el alumno se lleva, en orden de entrega:
+Lo que el integrante se lleva, en orden de entrega:
 
-- Documento de recorrido de punto A a punto B, con su diagnóstico y su plan de 90 días
-- Checklist de su orientación, cargado y con hitos por día 30, 45, 60 y 90
+- Su roadmap, actualizado los tres meses, con el diagnóstico y el plan
+- Un checklist de to-do por semana, para seguir un camino ordenado
 - Templates de oferta: promesa, mecanismo, entregables, niveles y plan de pagos
 - One-pager de oferta propio, escrito con Franco
 - Templates de trabajo y de propuesta comercial
@@ -151,7 +151,7 @@ Es el piso, no el cierre.
 
 ## 6. El proceso, instancia por instancia
 
-Qué pasa en cada encuentro, con qué llega el alumno y qué se lleva. Es el proceso ideal para alguien que entra desde hoy, y la base con la que Teo reparte tareas.
+Qué pasa en cada encuentro, con qué llega el integrante y qué se lleva. Es el proceso ideal para alguien que entra desde hoy, y la base con la que Teo reparte tareas.
 
 ### La cadena de accionables
 
@@ -179,7 +179,7 @@ Cuatro llamadas por mes, alternando Facu y Franco, salvo el último mes. La alte
 
 **Quién define qué.** La elección de la orientación la da Facu, en la semana 3, sobre lo que ya trabajó con Franco en la semana 2. La finalización del programa y la presentación de los próximos 6 meses la da Franco. Que abra y cierre el mes 3 la misma persona sostiene la escasez de Franco, que es lo que hace subir al Nivel 3.
 
-**Son 11 llamadas:** cuatro en el mes 1, cuatro en el mes 2 y tres en el mes 3. Es el número de la oferta y no se negocia por alumno.
+**Son 10 llamadas:** tres en el mes 1, cuatro en el mes 2 y tres en el mes 3. Es el número de la oferta y no se negocia por integrante.
 
 ### Onboarding · 48 horas
 
@@ -187,48 +187,48 @@ Dueño: Teo. Arranca dentro de las 48 horas del pago. Todo asincrónico y grabad
 
 | Bloque | Contenido | Por qué existe |
 |---|---|---|
-| Cómo consumir | Cómo está ordenado el material y en qué orden se recorre | Evita que el alumno consuma sin criterio |
+| Cómo consumir | Cómo está ordenado el material y en qué orden se recorre | Evita que el integrante consuma sin criterio |
 | Cómo usar la comunidad | Dónde se pregunta qué, cadencia, presentación al grupo | La comunidad rinde si se usa bien desde el día 1 |
 | Insights de marca personal | El material de marca personal que Cáscara ya viene compartiendo | Es el activo propio que más rápido se puede reutilizar acá |
 | Formulario inicial | Diagnóstico de negocio, números actuales, oferta vigente, preguntas sobre el negocio junto a las de marca personal | Es el insumo de la clarity call de la semana 1 |
 | Mapa de mentores | Quién sabe qué y a quién llevarle cada pregunta | Sube el rendimiento de cada sesión |
 | Modelo de conducta | Qué hace semana a semana alguien que sale de acá con resultado | Fija el estándar antes de que empiece a operar |
 
-**Regla que protege la cadena:** sin formulario completo no hay clarity call. Facu no usa su hora en reconstruir el contexto que el alumno tenía que cargar. Si al día 5 el formulario no está, Teo escala; si al día 7 no está, la clarity se corre y ese cupo de agenda se libera.
+**Regla que protege la cadena:** sin formulario completo no hay clarity call. Facu no usa su hora en reconstruir el contexto que el integrante tenía que cargar. Si al día 5 el formulario no está, Teo escala; si al día 7 no está, la clarity se corre y ese cupo de agenda se libera.
 
 **Las dos tareas del arranque.** La primera es cargar toda la información posible sobre su negocio: cuanto más completo llega el formulario, más preciso es el diagnóstico. La segunda es empezar a producir contenido, para su marca personal o para su negocio, sin esperar a tener la estrategia perfecta.
 
-**Sobre el modelo de conducta.** Que sea concreto y verificable, no motivacional: cuántas horas de venta por semana, cuántas conversaciones abiertas, qué se mide y con qué frecuencia se revisa. La función es que el alumno sepa distinguir estar ocupado de estar avanzando, que es el mismo problema que lo trajo.
+**Sobre el modelo de conducta.** Que sea concreto y verificable, no motivacional: cuántas horas de venta por semana, cuántas conversaciones abiertas, qué se mide y con qué frecuencia se revisa. La función es que el integrante sepa distinguir estar ocupado de estar avanzando, que es el mismo problema que lo trajo.
 
 ### Etapa 1 · Mes 1 · el piso común
 
-El mes 1 corre en dos carriles en paralelo: las cuatro 1-1 de la cadena y las grupales de los tres frentes. El alumno se va nutriendo de contenido y creatividad entre una 1-1 y la siguiente, y llega a cada llamada con más material que en la anterior.
+El mes 1 corre en dos carriles en paralelo: las cuatro 1-1 de la cadena y las grupales de los tres frentes. El integrante se va nutriendo de contenido y creatividad entre una 1-1 y la siguiente, y llega a cada llamada con más material que en la anterior.
 
 | Cuándo | Instancia | Quién | Formato | Llega con | Se lleva |
 |---|---|---|---|---|---|
 | 48 h | Onboarding | Teo | Asincrónico | Pago confirmado | Formulario completo y accesos activos |
 | Sem 1 · mar | Bienvenida y setup | Teo | Grupal | Nada | Agenda cargada y calendario completo |
-| Sem 1 · mié | A quién le hablás | Juana | Grupal | Su cuenta y sus últimas piezas | Su público y su mundo definidos |
-| Sem 1 · jue | Línea editorial y ángulos | Fede | Grupal | Sus últimas publicaciones | Tres ángulos propios escritos |
+| Sem 1 · jue | A quién le hablás | Juana | Grupal | Su cuenta y sus últimas piezas | Su público y su mundo definidos |
+| Sem 1 · vie | Línea editorial y ángulos | Fede | Grupal | Sus últimas publicaciones | Tres ángulos propios escritos |
 | Sem 1 | Clarity call | Facu | 1-1 | El formulario del onboarding | Diagnóstico, cuello de botella y prioridad de ataque |
 | Sem 2 · mar | Tu semana real | Teo | Grupal | Su semana hora por hora | Mapa de tareas y primer recorte |
-| Sem 2 · mié | Identidad y criterio propio | Juana | Grupal | Sus piezas y sus referencias | Criterio visual escrito |
-| Sem 2 · jue | Formatos y guionado | Fede | Grupal | Los tres ángulos | Calendario de contenido a 30 días |
+| Sem 2 · jue | Identidad y criterio propio | Juana | Grupal | Sus piezas y sus referencias | Criterio visual escrito |
+| Sem 2 · vie | Formatos y guionado | Fede | Grupal | Los tres ángulos | Calendario de contenido a 30 días |
 | Sem 2 | Producto y oferta | Franco | 1-1 | El accionable de la clarity | Oferta, servicio y coordinación del lanzamiento |
 | Sem 3 · mar | Herramientas mínimas | Teo | Grupal | Sus herramientas actuales | Setup mínimo funcionando |
-| Sem 3 · mié | Taller de piezas propias | Juana | Grupal | Las piezas de la semana | Piezas corregidas y publicables |
-| Sem 3 · jue | Taller del calendario | Fede | Grupal | El calendario ejecutado | Calendario ajustado |
+| Sem 3 · jue | Taller de piezas propias | Juana | Grupal | Las piezas de la semana | Piezas corregidas y publicables |
+| Sem 3 · vie | Taller del calendario | Fede | Grupal | El calendario ejecutado | Calendario ajustado |
 | Sem 3 | **Aterrizaje y definición** | Facu | 1-1 | La oferta trabajada con Franco | **Orientación elegida y objetivo de 60 días** |
 | Sem 4 · mar | Entregar sin depender de vos | Teo | Grupal | Su proceso actual de entrega | El primer paso documentado |
-| Sem 4 · mié | Voz de marca y narrativa | Juana | Grupal | Su copy actual | Voz definida y aplicada |
-| Sem 4 · jue | Contenido que abre conversación | Fede | Grupal | Las piezas publicadas | Piezas con llamada a conversación |
+| Sem 4 · jue | Voz de marca y narrativa | Juana | Grupal | Su copy actual | Voz definida y aplicada |
+| Sem 4 · vie | Contenido que abre conversación | Fede | Grupal | Las piezas publicadas | Piezas con llamada a conversación |
 | Sem 4 | Cierre del mes 1 | Franco | 1-1 | El roadmap elegido | Arranque del frente, con la primera semana cargada |
 
-**La condición para entrar al servicio.** Antes de pasar al mes 2 el alumno tiene que tener aceitada la creación de contenido: produciendo con criterio propio o, como mínimo, con lo que produce auditado y con la cabeza puesta en eso. Es la condición, no una recomendación. Si está creando contenido, el tráfico alimenta el embudo entero y todo el frente comercial del mes 2 rinde el triple. Si no, el bloque de adquisición empuja ventas sobre una audiencia que no se mueve.
+**La condición para entrar al servicio.** Antes de pasar al mes 2 el integrante tiene que tener aceitada la creación de contenido: produciendo con criterio propio o, como mínimo, con lo que produce auditado y con la cabeza puesta en eso. Es la condición, no una recomendación. Si está creando contenido, el tráfico alimenta el embudo entero y todo el frente comercial del mes 2 rinde el triple. Si no, el bloque de adquisición empuja ventas sobre una audiencia que no se mueve.
 
 ### Cómo se decide la orientación en la semana 3
 
-Facu llega con dos insumos: el diagnóstico de la semana 1 y la oferta que el alumno trabajó con Franco en la semana 2. Sobre eso, tres preguntas en orden. La primera que da negativo define la orientación.
+Facu llega con dos insumos: el diagnóstico de la semana 1 y la oferta que el integrante trabajó con Franco en la semana 2. Sobre eso, tres preguntas en orden. La primera que da negativo define la orientación.
 
 **¿Le llegan consultas?** Si no llegan, o llegan y no cierra, va a **Conseguir**. El cuello es comercial y ningún otro frente rinde hasta que eso se destrabe.
 
@@ -240,13 +240,13 @@ Facu llega con dos insumos: el diagnóstico de la semana 1 y la oferta que el al
 
 ### Etapa 2 · Meses 2 y 3 · el servicio
 
-**Desde la semana 5 Franco y Facu solo dan 1-1**, una por semana alternando entre los dos. En el mes 1 el alumno necesita el marco común; a partir del mes 2 el trabajo es sobre su caso y no rinde en grupo.
+**Desde la semana 5 Franco y Facu solo dan 1-1**, una por semana alternando entre los dos. En el mes 1 el integrante necesita el marco común; a partir del mes 2 el trabajo es sobre su caso y no rinde en grupo.
 
-**Las tres grupales siguen corriendo todas las semanas.** Operaciones el martes, creatividad el miércoles y contenido el jueves, las trece semanas: es una rotación permanente y no un tramo del recorrido. El alumno de mes 2 y 3 entra a las mismas grupales que el de mes 1, con los temas que le toquen a esa semana del ciclo.
+**Las tres grupales siguen corriendo todas las semanas.** Operaciones el martes, creatividad el jueves y contenido el viernes, las trece semanas: es una rotación permanente y no un tramo del recorrido. El integrante de mes 2 y 3 entra a las mismas grupales que el de mes 1, con los temas que le toquen a esa semana del ciclo.
 
-**El servicio es uno solo.** La línea que lo atraviesa entero es aprender a ser founder de un negocio digital. Todos los alumnos recorren los mismos bloques, porque el que consigue un cliente en la semana 6 necesita saber cómo entregarlo en la 7, y el que ordena su entrega en la 9 necesita seguir vendiendo. Partir el programa en tres recorridos separados obliga a elegir entre cosas que en la práctica pasan al mismo tiempo.
+**El servicio es uno solo.** La línea que lo atraviesa entero es aprender a ser founder de un negocio digital. Todos recorren los mismos bloques, porque el que consigue un cliente en la semana 6 necesita saber cómo entregarlo en la 7, y el que ordena su entrega en la 9 necesita seguir vendiendo. Partir el programa en tres recorridos separados obliga a elegir entre cosas que en la práctica pasan al mismo tiempo.
 
-**La orientación existe igual, y acá pesa más que nunca.** Sin grupal común, es lo único que define la agenda de las siete llamadas. Se elige en la semana 3 y se nombra por el cuello de botella del alumno.
+**La orientación existe igual, y acá pesa más que nunca.** Sin grupal común, es lo único que define la agenda de las siete llamadas. Se elige en la semana 3 y se nombra por el cuello de botella del integrante.
 
 #### Los cinco bloques del founder digital
 
@@ -260,7 +260,7 @@ Todos los pasan y todos entregan el mismo piso. Lo que cambia con la orientació
 | Entrega del servicio | Facu | Proceso de servicio documentado |
 | Estructura, capacidad y números | Facu | Mapa de tareas, cupo, precio y tablero |
 
-Franco lleva todo lo que está antes del cliente. Facu, todo lo que está después. Es la misma división que ya rige en el mes 1, así que el alumno escucha siempre a la misma cabeza sobre el mismo tema.
+Franco lleva todo lo que está antes del cliente. Facu, todo lo que está después. Es la misma división que ya rige en el mes 1, así que el integrante escucha siempre a la misma cabeza sobre el mismo tema.
 
 #### Las tres orientaciones
 
@@ -275,11 +275,11 @@ Franco lleva todo lo que está antes del cliente. Facu, todo lo que está despu�
 
 En dos lugares, y en ninguno más:
 
-**Las siete llamadas.** La orientación define su agenda: cuántas se dedican a cada bloque y en qué orden. Franco y Facu llegan a cada una sabiendo qué bloque toca y con qué profundidad. Las grupales de Teo, Juana y Fede son iguales para todos: lo que cambia es qué se lleva cada alumno de ahí según su orientación.
+**Las siete llamadas.** La orientación define su agenda: cuántas se dedican a cada bloque y en qué orden. Franco y Facu llegan a cada una sabiendo qué bloque toca y con qué profundidad. Las grupales de Teo, Juana y Fede son iguales para todos: lo que cambia es qué se lleva cada integrante de ahí según su orientación.
 
-**El checklist de la orientación.** Cada una tiene el suyo, con sus hitos y sus ítems, en el anexo de este documento. Vive en la app, el alumno lo tiene abierto todas las semanas y es lo que Teo usa para el seguimiento entre llamada y llamada.
+**El checklist de la orientación.** Cada una tiene el suyo, con sus hitos y sus ítems, en el anexo de este documento. Vive en la app, el integrante lo tiene abierto todas las semanas y es lo que Teo usa para el seguimiento entre llamada y llamada.
 
-Los tres checklists están escritos en el anexo de este documento. Sin grupales en los meses 2 y 3 son, junto con el agente copiloto, el soporte del alumno entre una llamada y la siguiente.
+Los tres checklists están escritos en el anexo de este documento. Sin grupales en los meses 2 y 3 son, junto con el agente copiloto, el soporte del integrante entre una llamada y la siguiente.
 
 > **A revisar contra el documento de Cáscara.** Este rediseño reemplaza los tres roadmaps A, B y C por un servicio único con tres orientaciones. Hay que cruzarlo con el documento de Cáscara donde estaban definidos los roadmaps originales, para ver qué se conserva, qué cambia de nombre y qué material ya producido se puede reutilizar.
 
@@ -287,11 +287,11 @@ Los tres checklists están escritos en el anexo de este documento. Sin grupales 
 
 El mes 2 cierra con Facu, así que el mes 3 abre con Franco para no repetir persona en el pase. Son tres llamadas: **Franco, Facu, Franco.** La última es el cierre del programa, con el roadmap a 6 meses y la evaluación de continuidad al Nivel 3.
 
-Que Franco abra y cierre el último mes es deliberado: la conversación de qué sigue después de la Aceleradora la tiene quien va a estar del otro lado si el alumno sube de nivel.
+Que Franco abra y cierre el último mes es deliberado: la conversación de qué sigue después de la Aceleradora la tiene quien va a estar del otro lado si el integrante sube de nivel.
 
 #### La rotación de las grupales
 
-Teo, Juana y Fede no dan una clase por camada: dan una rotación que no se corta, y los tres frentes caen todas las semanas. Un alumno de 90 días ve trece temas de operaciones, trece de creatividad y trece de contenido, sin repetir ninguno. El que entra en la semana 6 de la rotación empieza por ahí y completa el ciclo más adelante, que es lo que hace posible la venta continua.
+Teo, Juana y Fede no dan una clase por camada: dan una rotación que no se corta, y los tres frentes caen todas las semanas. Quien entra ve, en 90 días, trece temas de operaciones, trece de creatividad y trece de contenido, sin repetir ninguno. El que entra en la semana 6 de la rotación empieza por ahí y completa el ciclo más adelante, que es lo que hace posible la venta continua.
 
 **Teo · operaciones · todos los martes · 13 temas**
 
@@ -311,7 +311,7 @@ Teo, Juana y Fede no dan una clase por camada: dan una rotación que no se corta
 | 12 | Tablero y revisión mensual del negocio |
 | 13 | Qué queda funcionando cuando vos no estás |
 
-**Juana · creatividad · todos los miércoles · 13 temas**
+**Juana · creatividad · todos los jueves · 13 temas**
 
 | # | Tema |
 |---|---|
@@ -329,7 +329,7 @@ Teo, Juana y Fede no dan una clase por camada: dan una rotación que no se corta
 | 12 | Caso completo: de la idea a la pieza publicada |
 | 13 | Tu marca al día 90: qué cambió y qué queda |
 
-**Fede · contenido · todos los jueves · 13 temas**
+**Fede · contenido · todos los viernes · 13 temas**
 
 | # | Tema |
 |---|---|
@@ -347,27 +347,27 @@ Teo, Juana y Fede no dan una clase por camada: dan una rotación que no se corta
 | 12 | Comunidad y conversaciones en DM |
 | 13 | El calendario que sigue solo |
 
-> **A definir · Teo.** Si la rotación se graba para que el alumno que entra tarde pueda ver los temas que se perdió, o si se sostiene solo en vivo. Grabarla cambia el argumento de exclusividad del nivel, así que es una decisión de producto y no solo operativa.
+> **A definir · Teo.** Si la rotación se graba para que el integrante que entra tarde pueda ver los temas que se perdió, o si se sostiene solo en vivo. Grabarla cambia el argumento de exclusividad del nivel, así que es una decisión de producto y no solo operativa.
 
 #### Cómo se da una grupal
 
 Las tres comparten la misma anatomía. Lo que cambia es el frente, no la estructura. Seis cosas que tienen que pasar.
 
-**Abrir con lo que ya se dijo.** El objetivo es que el alumno escuche una sola versión y no tenga que elegir entre dos founders. Quien da la grupal arranca nombrando lo que se marcó en la anterior y qué está pidiendo el checklist esta semana. En la práctica: Fede abre su jueves diciendo que el martes Teo pidió documentar el proceso de entrega, y que lo de hoy es cómo ese proceso se cuenta hacia afuera. El alumno entiende que las dos cosas son la misma, no dos tareas.
+**Abrir con lo que ya se dijo.** El objetivo es que el integrante escuche una sola versión y no tenga que elegir entre dos founders. Quien da la grupal arranca nombrando lo que se marcó en la anterior y qué está pidiendo el checklist esta semana. En la práctica: Fede abre su viernes diciendo que el martes Teo pidió documentar el proceso de entrega, y que lo de hoy es cómo ese proceso se cuenta hacia afuera. El integrante entiende que las dos cosas son la misma, no dos tareas.
 
-**Repasar ejecución sobre material real.** El objetivo es que la grupal sea seguimiento y no clase. Dos o tres alumnos muestran lo que produjeron desde la última, y rota, así en seis semanas pasaron todos. En la práctica: Juana pide que dos compartan pantalla con sus tres últimas piezas y las trabaja en vivo. El que expone se lleva la corrección; el resto aprende mirando un caso real en vez de un ejemplo ajeno.
+**Repasar ejecución sobre material real.** El objetivo es que la grupal sea seguimiento y no clase. Dos o tres integrantes muestran lo que produjeron desde la última, y rota, así en seis semanas pasaron todos. En la práctica: Juana pide que dos compartan pantalla con sus tres últimas piezas y las trabaja en vivo. El que expone se lleva la corrección; el resto aprende mirando un caso real en vez de un ejemplo ajeno.
 
 **Bajar el tema de la rotación.** Es el contenido propio del frente, el que le toca a esa semana del ciclo. Se da sobre casos, no sobre teoría, y siempre termina en algo que se puede aplicar antes de la próxima.
 
 **Hacer algo dentro de la llamada.** El objetivo es que nadie salga con la tarea sin haberla empezado, porque lo que no arranca en la sala rara vez arranca después. En la práctica: Teo pide que cada uno escriba su semana real hora por hora durante diez minutos, y después lee dos en voz alta. Salieron de la llamada con el primer entregable a medio hacer y con la corrección puesta.
 
-**Dejar ideas e inspiración.** El objetivo es sostener la producción entre una grupal y la siguiente, que es donde la mayoría se frena. Cada alumno sale con tres ideas que puede publicar esta semana y una referencia para mirar. En la práctica: Fede deja tres ángulos concretos sobre el tema de la semana y una cuenta que los está resolviendo bien.
+**Dejar ideas e inspiración.** El objetivo es sostener la producción entre una grupal y la siguiente, que es donde la mayoría se frena. Cada integrante sale con tres ideas que puede publicar esta semana y una referencia para mirar. En la práctica: Fede deja tres ángulos concretos sobre el tema de la semana y una cuenta que los está resolviendo bien.
 
-**Cerrar con un desafío que ya está en el checklist.** Nunca es una tarea nueva. Si el desafío de Fede es armar el calendario a 60 días, ese ítem ya figura en el checklist de la orientación del alumno. El alumno tiene una sola lista, y el founder no inventa trabajo que después nadie revisa. Después del desafío se abre el Q&A.
+**Cerrar con un desafío que ya está en el checklist.** Nunca es una tarea nueva. Si el desafío de Fede es armar el calendario a 60 días, ese ítem ya figura en el checklist de la orientación del integrante. El integrante tiene una sola lista, y el integrante no inventa trabajo que después nadie revisa. Después del desafío se abre el Q&A.
 
 #### Qué revisa cada uno
 
-Los tres miran el mismo material desde su frente. Eso es lo que hace que el alumno reciba tres lecturas y no tres opiniones.
+Los tres miran el mismo material desde su frente. Eso es lo que hace que el integrante reciba tres lecturas y no tres opiniones.
 
 | | **Teo · operaciones** | **Juana · creatividad** | **Fede · contenido** |
 |---|---|---|---|
@@ -376,23 +376,23 @@ Los tres miran el mismo material desde su frente. Eso es lo que hace que el alum
 | Ayuda con | Entrega del servicio, delegación, capacidad, herramientas | Identidad, dirección visual, voz de marca, presencia | Línea editorial, ángulos, guionado, ritmo, métricas |
 | Deriva a | Juana y Fede cuando el problema es de criterio creativo o editorial | Fede cuando es de calendario, Teo cuando es de producción | Juana cuando es de identidad, Teo cuando es de sistema |
 
-**El calendario de contenido es el artefacto compartido.** Los tres lo tocan: Fede revisa si está armado y si se cumple, Juana revisa la calidad de lo que sale, Teo revisa si el alumno tiene el sistema para sostenerlo. Es el punto donde se cruzan y por eso es donde más riesgo hay de contradicción.
+**El calendario de contenido es el artefacto compartido.** Los tres lo tocan: Fede revisa si está armado y si se cumple, Juana revisa la calidad de lo que sale, Teo revisa si el integrante tiene el sistema para sostenerlo. Es el punto donde se cruzan y por eso es donde más riesgo hay de contradicción.
 
 #### El protocolo para no pisarse
 
-Es la parte que hace que esto funcione con tres personas dando clases en paralelo sobre los mismos alumnos.
+Es la parte que hace que esto funcione con tres personas dando clases en paralelo sobre los mismos founders.
 
 **Cada uno habla de su frente y de ninguno más.** Es el mapa de mentores aplicado hacia adentro. Si en la grupal de Juana aparece una pregunta de precio, se anota y se deriva; no se contesta. La tentación de resolver ahí mismo es lo que genera las indicaciones cruzadas.
 
 **Un solo registro.** Al terminar cada grupal, quien la dio carga en dos líneas qué se marcó y cuál fue el desafío. Cinco minutos. Sin eso, ninguna de las otras reglas se puede cumplir.
 
-**Se lee antes de dar.** Los tres leen el registro de las grupales anteriores antes de la suya. Teo el martes tiene que saber qué marcó Fede el jueves anterior, y Juana el miércoles tiene que saber qué marcó Teo el martes anterior.
+**Se lee antes de dar.** Los tres leen el registro de las grupales anteriores antes de la suya. Teo el martes tiene que saber qué marcó Fede el viernes anterior, y Juana el jueves tiene que saber qué marcó Teo el martes anterior.
 
-**Veinte minutos de coordinación por semana.** Los tres, más el coordinador cuando exista. Tres preguntas: qué marcó cada uno, quién se está quedando atrás, y si hay algo que un frente esté pidiendo y otro esté frenando. La interna de Aceleradora de los jueves ya existe en la agenda y puede absorber esto.
+**Veinte minutos de coordinación por semana.** Los tres, más el coordinador cuando exista. Tres preguntas: qué marcó cada uno, quién se está quedando atrás, y si hay algo que un frente esté pidiendo y otro esté frenando. La interna de Aceleradora de los viernes ya existe en la agenda y puede absorber esto.
 
-**Regla de conflicto.** Si dos indicaciones chocan y no se resuelve entre ellos, se escala a Facu y él define. Queda escrito en el registro, para que el alumno reciba una sola versión y no tenga que elegir entre dos founders.
+**Regla de conflicto.** Si dos indicaciones chocan y no se resuelve entre ellos, se escala a Facu y él define. Queda escrito en el registro, para que el integrante reciba una sola versión y no tenga que elegir entre dos founders.
 
-> **A definir · Teo.** Dónde vive el registro de grupales: en la app cuando esté, en Notion mientras tanto. Y si el repaso de ejecución se agenda con nombre y apellido la semana anterior o se elige en el momento. Agendado rinde más, porque el alumno prepara.
+> **A definir · Teo.** Dónde vive el registro de grupales: en la app cuando esté, en Notion mientras tanto. Y si el repaso de ejecución se agenda con nombre y apellido la semana anterior o se elige en el momento. Agendado rinde más, porque el integrante prepara.
 
 #### Cómo se conecta con los checklists
 
@@ -408,13 +408,13 @@ Cada ítem del checklist tiene un espacio donde se trabaja y uno donde se valida
 
 **Lo que esto ordena.** A la grupal nadie lleva algo terminado para que se lo aprueben, porque no es una instancia individual: se lleva algo en curso, se trabaja sobre eso y se avanza. La aprobación vive en la 1-1. Pero el checklist es el mismo, así que el trabajo de la grupal empuja los mismos ítems que después Franco o Facu revisan.
 
-**Y algo que conviene ver.** Los bloques de oferta, precio y ventas no se tocan en ninguna grupal: viven solo en las 1-1 de Franco. No es un descuido, es la escasez que sostiene el nivel. El alumno accede al frente comercial únicamente cara a cara, y esa es la diferencia concreta con el Nivel 1.
+**Y algo que conviene ver.** Los bloques de oferta, precio y ventas no se tocan en ninguna grupal: viven solo en las 1-1 de Franco. No es un descuido, es la escasez que sostiene el nivel. El integrante accede al frente comercial únicamente cara a cara, y esa es la diferencia concreta con el Nivel 1.
 
 ### Etapa 3 · Cierre
 
 Última llamada del mes 3, con Franco. Qué se resolvió, qué queda instalado y qué sigue. Sale con roadmap a 6 meses. Es también donde se evalúa la graduación y la calificación al Nivel 3.
 
-### Checklist por alumno
+### Checklist por integrante
 
 Teo lleva uno por persona. Sirve de control de asistencia y de entregables al mismo tiempo.
 
@@ -455,11 +455,11 @@ Se entrega en el onboarding y queda fijado en la comunidad. Es el activo más ba
 | Juana | Creatividad | Identidad, dirección visual, voz de marca | Ventas, operaciones |
 | Teo | Operaciones | Sistemas, entrega de servicio, herramientas, fulfillment | Oferta, posicionamiento |
 
-La columna de la derecha es la que hace que el mapa funcione. Sin ella el alumno le lleva todo al que tiene más cerca, las sesiones se diluyen y cada mentor termina opinando fuera de su frente.
+La columna de la derecha es la que hace que el mapa funcione. Sin ella el integrante le lleva todo al que tiene más cerca, las sesiones se diluyen y cada mentor termina opinando fuera de su frente.
 
 ---
 
-## 8. Qué se lleva el alumno
+## 8. Qué se lleva la camada
 
 Un programa de 90 días sin artefactos de salida se recuerda como una experiencia; con artefactos, como un antes y un después.
 
@@ -482,61 +482,61 @@ Un programa de 90 días sin artefactos de salida se recuerda como una experienci
 
 ## 9. La infraestructura del programa
 
-Lo que hace que el programa funcione sin que un founder esté encima. Parte existe, parte está en desarrollo y parte hay que construirla.
+Lo que hace que el programa funcione sin que un integrante esté encima. Parte existe, parte está en desarrollo y parte hay que construirla.
 
 ### Onboarding automático
 
-Hoy el arranque depende de que Teo empuje cada paso a mano. Con 16 alumnos por camada y venta continua, eso se rompe solo.
+Hoy el arranque depende de que Teo empuje cada paso a mano. Con 16 integrantes por camada y venta continua, eso se rompe solo.
 
 La secuencia completa tiene que dispararse sola con el pago confirmado: contrato al mail para firma, cobro registrado, alta en la comunidad y en los canales, entrega del material de onboarding, formulario inicial con recordatorio automático a las 48 y a las 96 horas, y aviso a Teo únicamente cuando algo se traba. Teo pasa de ejecutar la secuencia a atender las excepciones.
 
-**El contrato es la pieza que falta.** Hoy no hay un contrato específico de la Aceleradora: se está usando la lógica del programa B2C, que no cubre ni el alcance de 1-1, ni el cupo, ni el filtro de admisión, ni qué pasa si el alumno abandona a mitad de camino. Hay que escribirlo antes de que entre la primera camada vendida.
+**El contrato es la pieza que falta.** Hoy no hay un contrato específico de la Aceleradora: se está usando la lógica del programa B2C, que no cubre ni el alcance de 1-1, ni el cupo, ni el filtro de admisión, ni qué pasa si el integrante abandona a mitad de camino. Hay que escribirlo antes de que entre la primera camada vendida.
 
 > **A definir.** Con qué herramienta se arma la secuencia, y si el contrato queda dentro del flujo de pago o se manda aparte.
 
 ### La app de Cáscara
 
-El programa deja de vivir en Notion y pasa a la app propia, que está en desarrollo. Es donde el alumno tiene su recorrido, su checklist de orientación, sus entregables y su historial de llamadas en un solo lugar, y donde Teo ve el estado de los 16 sin abrir dieciséis documentos.
+El programa deja de vivir en Notion y pasa a la app propia, que está en desarrollo. Es donde el integrante tiene su recorrido, su checklist de orientación, sus entregables y su historial de llamadas en un solo lugar, y donde Teo ve el estado de los 16 sin abrir dieciséis documentos.
 
-Es además lo que sostiene el seguimiento entre llamada y llamada, que ahora que no hay grupales en los meses 2 y 3 es donde el alumno puede quedarse solo.
+Es además lo que sostiene el seguimiento entre llamada y llamada, que ahora que no hay grupales en los meses 2 y 3 es donde el integrante puede quedarse solo.
 
 > **A definir.** Qué tiene que estar listo de la app para la primera camada vendida, y qué se sostiene en Notion mientras tanto.
 
 ### Connect Wall
 
-El alumno tiene acceso a publicar en Connect Wall para armar su equipo: editores, diseñadores, setters, asistentes. Es una de las cosas más concretas que se lleva, porque el momento en que necesita delegar llega dentro del programa y no después.
+El integrante tiene acceso a publicar en Connect Wall para armar su equipo: editores, diseñadores, setters, asistentes. Es una de las cosas más concretas que se lleva, porque el momento en que necesita delegar llega dentro del programa y no después.
 
 Vale para las tres orientaciones, y es lo que hace que el bloque de estructura y equipo deje de ser teórico. En Sostener y en Entregar es directamente parte del entregable.
 
 ### El agente copiloto
 
-Un agente de soporte que acompaña al alumno todos los días, nutrido con la información de Cáscara: las llamadas, los marcos, los casos y los ejemplos. La función es destrabar en el momento en que la persona se traba, que casi nunca coincide con el día de su 1-1.
+Un agente de soporte que acompaña al integrante todos los días, nutrido con la información de Cáscara: las llamadas, los marcos, los casos y los ejemplos. La función es destrabar en el momento en que la persona se traba, que casi nunca coincide con el día de su 1-1.
 
 Es la respuesta más directa a la objeción de frecuencia que va a traer el que viene del Founder System: tenía una llamada por semana y acá tiene una cada dos, pero tiene soporte todos los días con el criterio de Cáscara adentro.
 
-**El contexto.** Estamos trabajando con Coderhouse, que está construyendo varios agentes de IA para dar capacitación en tiempo real a sus alumnos. Nuestro caso es distinto y más chico: no es un agente que enseña, es un agente de CSM que conoce el caso de cada alumno y le devuelve el ejemplo que necesita para seguir.
+**El contexto.** Estamos trabajando con Coderhouse, que está construyendo varios agentes de IA para dar capacitación en tiempo real a sus alumnos. Nuestro caso es distinto y más chico: no es un agente que enseña, es un agente de CSM que conoce el caso de cada integrante y le devuelve el ejemplo que necesita para seguir.
 
 > **A definir.** Qué parte se construye con Coderhouse y qué parte queda propia, y si el agente entra en la oferta de esta camada o de la siguiente. También la conversación de mantenimiento mensual, que ya estaba abierta.
 
 ### El coordinador · CSM
 
-Hoy Teo hace el onboarding, la grupal de operaciones, el seguimiento de los alumnos entre llamadas y la coordinación de agendas de los cinco founders. Con una camada de 16 se sostiene. Con venta continua y camadas superpuestas deja de sostenerse, y lo primero que se cae es el seguimiento, que es justamente lo que hace que el alumno llegue con el entregable hecho.
+Hoy Teo hace el onboarding, la grupal de operaciones, el seguimiento de los integrantes entre llamadas y la coordinación de agendas de los cinco founders. Con una camada de 16 se sostiene. Con venta continua y camadas superpuestas deja de sostenerse, y lo primero que se cae es el seguimiento, que es justamente lo que hace que el integrante llegue con el entregable hecho.
 
 A futuro ese trabajo se separa en un rol propio: **coordinador de la Aceleradora, con función de CSM.**
 
 | Qué hace | Detalle |
 |---|---|
-| Seguimiento entre llamadas | Revisa el checklist de cada alumno y detecta al que se está quedando antes de que lo diga |
+| Seguimiento entre llamadas | Revisa el checklist de cada integrante y detecta al que se está quedando antes de que lo diga |
 | Control de la cadena | Verifica que el accionable de cada sesión esté hecho antes de la siguiente |
 | Agenda | Sostiene las tres grupales semanales y coordina las 1-1 de Facu y Franco |
-| Escalado | Define qué se resuelve solo, qué va a Teo y qué llega a un founder |
+| Escalado | Define qué se resuelve solo, qué va a Teo y qué llega a un integrante |
 | Dueño del agente | Carga material nuevo, revisa qué preguntas no resuelve y las convierte en contenido |
 
 **La relación con el agente es la clave del rol.** El copiloto resuelve lo repetitivo y le deja al coordinador lo que necesita criterio humano. Sin agente, el rol se llena de preguntas que ya están respondidas en algún lado. Sin coordinador, el agente no se alimenta y se queda viejo en dos camadas.
 
 Teo queda en dirección de operaciones: diseña el sistema, el coordinador lo corre.
 
-> **A definir · Teo.** Cuándo se abre el rol y con qué disparador: cantidad de alumnos activos, cantidad de camadas superpuestas, o una fecha. Y si el rol ya existe en los acuerdos vigentes, unificar el alcance con lo que está escrito acá.
+> **A definir · Teo.** Cuándo se abre el rol y con qué disparador: cantidad de integrantes activos, cantidad de camadas superpuestas, o una fecha. Y si el rol ya existe en los acuerdos vigentes, unificar el alcance con lo que está escrito acá.
 
 ---
 
@@ -544,27 +544,27 @@ Teo queda en dirección de operaciones: diseña el sistema, el coordinador lo co
 
 Todos los horarios en hora Argentina. Las 15:00 de acá son las 20:00 en Madrid, que es la franja que Juana ya sostiene.
 
-**La lógica.** Tres días fijos, todas las semanas: operaciones el martes con Teo, creatividad el miércoles con Juana y contenido el jueves con Fede. Martes y miércoles a las 15:00, jueves a las 16:30. El orden importa: operaciones ordena la semana, creatividad define qué se dice y con qué mundo, y contenido lo baja a piezas concretas antes del fin de semana. Facu y Franco quedan fuera de la grilla grupal: sus 1-1 entran por el link de Founders, en bloque los viernes.
+**La lógica.** Tres días fijos, todas las semanas: operaciones el martes con Teo, creatividad el jueves con Juana y contenido el viernes con Fede. Martes y jueves a las 15:00, viernes a las 16:30. El orden importa: operaciones ordena la semana, creatividad define qué se dice y con qué mundo, y contenido lo baja a piezas concretas antes del fin de semana. Facu y Franco quedan fuera de la grilla grupal: sus 1-1 entran por el link de Founders, en bloque los viernes.
 
 | Quién | Sem 17 ago | Sem 24 ago | Sem 31 ago | Sem 7 sep | Sem 14 sep | Sem 21 sep |
 |---|---|---|---|---|---|---|
 | **Teo** · operaciones | Jue 20 · 16:30 · Bienvenida | — | Mar 1 · 15:00 | — | Mar 15 · 15:00 | — |
-| **Juana** · creatividad · mié | — | Mié 26 · 15:00 | Mié 2 · 15:00 | Mié 9 · 15:00 | Mié 16 · 15:00 | Mié 23 · 15:00 |
-| **Fede** · contenido · jue | — | Jue 27 · 16:30 | Jue 3 · 16:30 | Jue 10 · 16:30 | Jue 17 · 16:30 | Jue 24 · 16:30 |
+| **Juana** · creatividad · jue | — | Mié 26 · 15:00 | Mié 2 · 15:00 | Mié 9 · 15:00 | Mié 16 · 15:00 | Mié 23 · 15:00 |
+| **Fede** · contenido · vie | — | Jue 27 · 16:30 | Jue 3 · 16:30 | Jue 10 · 16:30 | Jue 17 · 16:30 | Jue 24 · 16:30 |
 | **Facu** · 1-1 | Vie 21 | Vie 28 | Vie 4 | Vie 11 | Vie 18 | Vie 25 |
 | **Franco** · 1-1 | Vie 21 | Vie 28 | Vie 4 | Vie 11 | Vie 18 | Vie 25 |
 
 **Teo · operaciones.** Bienvenida a toda la camada y después todos los martes a las 15:00: jue 20 ago 16:30 (bienvenida) · mar 25 ago · mar 1 sep · mar 8 sep · mar 15 sep · mar 22 sep, y así.
 
-**Juana · creatividad.** Todos los miércoles 15:00 (20:00 Madrid): 26 ago · 2 sep · 9 sep · 16 sep · 23 sep, y así.
+**Juana · creatividad.** Todos los jueves 15:00 (20:00 Madrid): 26 ago · 2 sep · 9 sep · 16 sep · 23 sep, y así.
 
-**Fede · contenido.** Todos los jueves 16:30, al día siguiente de Juana: 27 ago · 3 sep · 10 sep · 17 sep · 24 sep, y así. Va a las 16:30 y no a las 15:00 porque su jueves está cerrado hasta las 16:15, igual que el de Facu.
+**Fede · contenido.** Todos los viernes 16:30, al día siguiente de Juana: 27 ago · 3 sep · 10 sep · 17 sep · 24 sep, y así. Va a las 16:30 y no a las 15:00 porque su viernes está cerrado hasta las 16:15, igual que el de Facu.
 
-**Facu y Franco · 1-1.** Por el link de Founders, que los alumnos reservan solos. Facu define cada semana quién se agenda con quién, así el ciclo queda alternado: clarity, estrategia, clarity. Viernes 21 ago con dos reservas tomadas (Andrea Saturno 11:15, Dan Schwab 13:30); 28 ago, 4 y 11 sep con bloque abierto.
+**Facu y Franco · 1-1.** Por el link de Founders, que los integrantes reservan solos. Facu define cada semana quién se agenda con quién, así el ciclo queda alternado: clarity, estrategia, clarity. Viernes 21 ago con dos reservas tomadas (Andrea Saturno 11:15, Dan Schwab 13:30); 28 ago, 4 y 11 sep con bloque abierto.
 
-**La semana tiene tres instancias y siempre las mismas.** Martes, miércoles y jueves, sin semanas vacías: el alumno sabe de memoria dónde cae cada frente. El entregable de cada grupal se aplica antes de la siguiente del mismo frente, que es siempre a siete días.
+**La semana tiene tres instancias y siempre las mismas.** Martes, jueves y viernes, sin semanas vacías: el integrante sabe de memoria dónde cae cada frente. El entregable de cada grupal se aplica antes de la siguiente del mismo frente, que es siempre a siete días.
 
-**Los tres días fijos son martes, miércoles y jueves.** Martes y miércoles a las 15:00, jueves a las 16:30, porque los jueves están cerrados hasta las 16:15 tanto para Facu como para Fede. La bienvenida del jueves 20 usa esa misma franja, así que el patrón queda instalado desde la primera instancia.
+**Los tres días fijos son martes, jueves y viernes.** Martes y jueves a las 15:00, viernes a las 16:30, porque los viernes están cerrados hasta las 16:15 tanto para Facu como para Fede. La bienvenida del viernes 20 usa esa misma franja, así que el patrón queda instalado desde la primera instancia.
 
 **Falta el calendario de Teo.** El suyo no está compartido, así que sus horarios salen de las internas que comparte. Que lo confirme él antes de mandar las invitaciones.
 
@@ -574,7 +574,7 @@ Todos los horarios en hora Argentina. Las 15:00 de acá son las 20:00 en Madrid,
 
 ### Los que ya están dentro, vía Cáscara
 
-| Alumno | Orientación | Estado |
+| Integrante | Orientación | Estado |
 |---|---|---|
 | Sharon Palacio | Entregar | En ejecución. Tres clientes de estrategia más el negocio de tatuaje |
 | Ayelén Cerqueira | Conseguir | En ejecución. Pipeline abierto |
@@ -587,7 +587,7 @@ Agos y Matías todavía no tienen roadmap asignado ni documento de punto A a pun
 
 ### Los que entran vía F3
 
-| Alumno | Entra | Nota |
+| Integrante | Entra | Nota |
 |---|---|---|
 | Bianca Antonini | Sí, full | |
 | Nicolás Lozada | Sí, full | |
@@ -616,7 +616,7 @@ Los tres que entran de F3 llegan con recorrido propio, sin el piso común de Cá
 
 ---
 
-## 12. Los alumnos, uno por uno
+## 12. La camada, uno por uno
 
 Punto A, cuello de botella y estado de cada uno. Es la base para asignar roadmap y para que cualquiera de los cinco founders llegue a una instancia sabiendo con quién habla.
 
@@ -648,13 +648,13 @@ Clientes propios desde 2017, con un rol que siempre fue más amplio que el dise�
 
 **Cadencia.** Una grupal semanal fija y las 1-1 distribuidas dentro del roadmap. La fecha de cada instancia queda agendada desde el arranque, no se define sobre la marcha.
 
-**Regla de entrega.** El alumno llega a cada instancia con el entregable de la semana anterior hecho. La call trabaja sobre material real. Todo lo que se define se escribe.
+**Regla de entrega.** El integrante llega a cada instancia con el entregable de la semana anterior hecho. La call trabaja sobre material real. Todo lo que se define se escribe.
 
 **Llamadas fuera de cadencia.** Solo para urgencias puntuales. Refuerzan el roadmap, no lo reemplazan.
 
-**Registro.** Cada alumno con su documento de recorrido en el formato de punto A a punto B que ya usamos.
+**Registro.** Cada integrante con su documento de recorrido en el formato de punto A a punto B que ya usamos.
 
-**El calendario se arma en el planificador** (`aceleradora-planificador.html`): carga la camada, elige fecha de arranque y franja de la grupal, y sale el calendario de las 13 semanas más las 1-1 de cada alumno, listo para copiar a Notion.
+**El calendario se arma en el planificador** (`aceleradora-planificador.html`): carga la camada, elige fecha de arranque y franja de la grupal, y sale el calendario de las 13 semanas más las 1-1 de cada integrante, listo para copiar a Notion.
 
 **Antes de la primera grupal, Teo cierra:**
 
@@ -664,7 +664,7 @@ Clientes propios desde 2017, con un rol que siempre fue más amplio que el dise�
 4. Comunicación de la extensión de 2 meses a Antonio, Andrea y Qualita.
 5. Calendario completo de las 13 semanas con responsable por instancia, y confirmación de su propio calendario.
 6. Sesión de nivelación de los tres que entran de F3.
-7. Carga semanal del alumno mapeada. Entre las 1-1, la cadena de accionables y las grupales, la cantidad de tareas es alta. Es el riesgo de fulfillment más concreto del diseño.
+7. Carga semanal del integrante mapeada. Entre las 1-1, la cadena de accionables y las grupales, la cantidad de tareas es alta. Es el riesgo de fulfillment más concreto del diseño.
 
 ---
 
@@ -731,7 +731,7 @@ Meta: 10 tickets, mínimo viable 8.
 
 ## Anexo · Los tres checklists de orientación
 
-Un documento por alumno, con el checklist de su orientación. Vive en la app y es lo que Teo revisa entre llamada y llamada. Los cinco bloques están en los tres: lo que cambia es la profundidad y el orden.
+Un documento por integrante, con el checklist de su orientación. Vive en la app y es lo que Teo revisa entre llamada y llamada. Los cinco bloques están en los tres: lo que cambia es la profundidad y el orden.
 
 Los ítems en negrita son los que definen la orientación. El resto es el piso que cumplen todos.
 
@@ -869,7 +869,7 @@ Los ítems en negrita son los que definen la orientación. El resto es el piso q
 
 ---
 
-**Cómo se usa.** El alumno lo tiene abierto en la app. Marca lo que completa. Franco y Facu llegan a cada 1-1 mirando lo que quedó sin marcar, y ahí sale la agenda de la llamada sin preguntar cómo viene. Teo revisa el avance entre llamada y llamada y escala lo que se traba.
+**Cómo se usa.** El integrante lo tiene abierto en la app. Marca lo que completa. Franco y Facu llegan a cada 1-1 mirando lo que quedó sin marcar, y ahí sale la agenda de la llamada sin preguntar cómo viene. Teo revisa el avance entre llamada y llamada y escala lo que se traba.
 
 ---
 
